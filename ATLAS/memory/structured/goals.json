@@ -1,0 +1,127 @@
+{
+    "goals": [
+        {
+            "goal": "to build Advance AI Architecture",
+            "created_at": "2026-02-26T01:03:01.066694",
+            "progress_notes": [
+                {
+                    "note": "started designing cognitive layers",
+                    "timestamp": "2026-02-26T01:03:33.622744"
+                },
+                {
+                    "note": "finished first module",
+                    "timestamp": "2026-03-03T02:05:13.614456"
+                },
+                {
+                    "note": "finished cognitive layer",
+                    "timestamp": "2026-03-03T13:52:32.682574"
+                },
+                {
+                    "note": "finished core",
+                    "timestamp": "2026-03-03T19:18:17.502600"
+                },
+                {
+                    "note": "finished core",
+                    "timestamp": "2026-03-04T11:23:03.092753"
+                },
+                {
+                    "note": "finished modulehow have i been",
+                    "timestamp": "2026-03-06T14:29:56.424113"
+                },
+                {
+                    "note": "finished architecture layer",
+                    "timestamp": "2026-03-06T14:48:59.556028"
+                }
+            ]
+        },
+        {
+            "goal": "pass with more than 8 CGPA",
+            "created_at": "2026-02-26T01:06:35.151866",
+            "progress_notes": [
+                {
+                    "note": "integrated gate logic",
+                    "timestamp": "2026-03-03T13:52:32.798830"
+                },
+                {
+                    "note": "integrated routing",
+                    "timestamp": "2026-03-03T19:18:17.615785"
+                },
+                {
+                    "note": "integrated routing",
+                    "timestamp": "2026-03-04T11:23:03.207009"
+                }
+            ]
+        },
+        {
+            "goal": "build atlas properly",
+            "created_at": "2026-03-03T01:33:24.160305",
+            "progress_notes": []
+        },
+        {
+            "goal": "get 9 cgpa",
+            "created_at": "2026-03-03T01:53:21.219023",
+            "progress_notes": [
+                {
+                    "note": "completed architecture layer",
+                    "timestamp": "2026-03-03T02:05:41.548336"
+                }
+            ]
+        },
+        {
+            "goal": "complete atlas architecture",
+            "created_at": "2026-03-03T13:52:32.346178",
+            "progress_notes": []
+        },
+        {
+            "goal": "build llm adapter",
+            "created_at": "2026-03-03T13:52:32.462808",
+            "progress_notes": []
+        },
+        {
+            "goal": "refactor system",
+            "created_at": "2026-03-03T19:04:18.105904",
+            "progress_notes": []
+        },
+        {
+            "goal": "complete atlas",
+            "created_at": "2026-03-03T19:18:17.171612",
+            "progress_notes": []
+        },
+        {
+            "goal": "build adapter layer",
+            "created_at": "2026-03-03T19:18:17.287323",
+            "progress_notes": []
+        },
+        {
+            "goal": "complete atlas",
+            "created_at": "2026-03-04T11:23:02.757914",
+            "progress_notes": []
+        },
+        {
+            "goal": "build adapter layer",
+            "created_at": "2026-03-04T11:23:02.877591",
+            "progress_notes": []
+        },
+        {
+            "goal": "to build atlas",
+            "created_at": "2026-03-04T12:39:24.675526",
+            "progress_notes": []
+        },
+        {
+            "goal": "to have fun",
+            "created_at": "2026-03-04T16:21:40.820722",
+            "progress_notes": []
+        },
+        {
+            "goal": "build atlas",
+            "created_at": "2026-03-06T14:29:28.801952",
+            "progress_notes": []
+        },
+        {
+            "goal": "finish atlas architecture",
+            "created_at": "2026-03-06T14:48:59.335549",
+            "progress_notes": []
+        }
+    ],
+    "last_updated": "2026-03-06T14:48:59.556036"
+}

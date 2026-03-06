@@ -1,0 +1,10 @@
+{
+    "timestamp": "2026-02-27 16:38:05",
+    "dominant_emotion": "stress",
+    "total_entries": 15,
+    "distribution": {
+        "stress": 8,
+        "positive": 7
+    },
+    "reflection": "I have observed a recurring stress pattern recently. It may be beneficial to adjust workload pacing."
+}

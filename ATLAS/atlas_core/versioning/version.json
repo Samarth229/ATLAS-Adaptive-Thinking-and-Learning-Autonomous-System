@@ -1,0 +1,11 @@
+{
+  "current_version": "0.1.0",
+  "release_date": "2026-02-25",
+  "milestones": [
+    "Initial identity core created.",
+    "Daemon runtime v0.1 integrated.",
+    "Runtime v0.4 cognitive layering integrated.",
+    "Milestone 4: Self-Regulating Cognitive Architecture Achieved.",
+    "Milestone 5: Infrastructure Abstraction Layer Completed — Model-Ready Architecture"
+  ]
+}
