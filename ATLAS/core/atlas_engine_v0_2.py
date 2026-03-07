@@ -69,16 +69,8 @@ class AtlasEngineV0_2:
 
     def _route_intent(self, intent: str, payload: str) -> str:
 
-        # ------------------------------
-        # Greeting
-        # ------------------------------
-
         if intent == "greeting":
             return self.text_engine.generate_greeting()
-
-        # ------------------------------
-        # Identity
-        # ------------------------------
 
         if intent == "identity_statement":
 
@@ -93,10 +85,6 @@ class AtlasEngineV0_2:
 
         if intent == "identity_query":
             return self.text_engine.generate_identity_response()
-
-        # ------------------------------
-        # Emotion Handling
-        # ------------------------------
 
         if intent == "emotion_statement":
 
@@ -113,27 +101,15 @@ class AtlasEngineV0_2:
 
             return "I acknowledge your emotional state."
 
-        # ------------------------------
-        # Long-term Emotional Summary
-        # ------------------------------
-
         if intent == "emotion_summary_query":
 
             state = self.state_engine.build_state()
 
             return self.text_engine.generate_emotion_summary(state)
 
-        # ------------------------------
-        # Session Emotional Summary
-        # ------------------------------
-
         if intent == "session_summary_query":
 
             return self.text_engine.generate_session_summary(self.session_emotions)
-
-        # ------------------------------
-        # Stability
-        # ------------------------------
 
         if intent == "stability_query":
 
@@ -144,10 +120,6 @@ class AtlasEngineV0_2:
             stability_score = positive - (stress + fatigue)
 
             return f"Emotional Stability Score: {stability_score}"
-
-        # ------------------------------
-        # Goals
-        # ------------------------------
 
         if intent == "goal_creation":
 
@@ -200,10 +172,6 @@ class AtlasEngineV0_2:
 
             return self.text_engine.generate_alignment_response(state)
 
-        # ------------------------------
-        # Unknown / Generative Fallback
-        # ------------------------------
-
         return self._generate_with_model(payload)
 
     # =========================================================
@@ -214,7 +182,7 @@ class AtlasEngineV0_2:
 
         try:
 
-            model_output = self.model.route(prompt=payload)
+            model_output = self.model.generate(payload)
 
             if isinstance(model_output, dict):
                 return model_output.get(
@@ -224,5 +192,5 @@ class AtlasEngineV0_2:
 
             return str(model_output)
 
-        except Exception:
-            return "An internal processing error occurred."
+        except Exception as e:
+            return f"Model execution error: {str(e)}"

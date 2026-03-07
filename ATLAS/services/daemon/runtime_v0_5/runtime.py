@@ -10,13 +10,13 @@ from cognition.reasoning.text_engine_v0_1.engine import TextEngineV0_1
 from cognition.state.state_engine_v0_1.state import CognitiveStateEngineV0_1
 
 from cognition.models.adapters.rule_based_adapter_v0_1 import RuleBasedAdapterV0_1
+from cognition.models.adapters.ollama_adapter_v0_1 import OllamaAdapterV0_1
+from cognition.models.router.model_router_v0_1 import ModelRouterV0_1
 
 from memory.engine.interaction_loader_v0_1.loader import InteractionLoaderV0_1
 from memory.engine.profile_memory_v0_1.profile import ProfileMemoryV0_1
 from memory.engine.goal_memory_v0_1.goal import GoalMemoryV0_1
 from memory.engine.emotion_memory_v0_1.emotion_logger import EmotionMemoryV0_1
-from cognition.models.router.model_router_v0_1 import ModelRouterV0_1
-
 
 RUNTIME_VERSION = "0.5"
 console = Console()
@@ -62,9 +62,31 @@ def start_runtime(identity):
         state_engine.build_state().get("dominant_emotion")
     )
 
+    # --------------------------------------------------
+    # Model Adapters
+    # --------------------------------------------------
+
     rule_model = RuleBasedAdapterV0_1(text_engine=text_engine)
-    model_router = ModelRouterV0_1(default_model=rule_model)
-    model_router.register_model("rule", rule_model)
+
+    adapters = {
+        "mistral": OllamaAdapterV0_1("mistral"),
+        "phi": OllamaAdapterV0_1("phi3"),
+        "deepseek": OllamaAdapterV0_1("deepseek-coder:6.7b"),
+        "llama": OllamaAdapterV0_1("llama3.1:8b"),
+    }
+
+    # --------------------------------------------------
+    # Model Router
+    # --------------------------------------------------
+
+    model_router = ModelRouterV0_1(adapters)
+
+    # fallback model if router fails
+    model_router.adapters["fallback"] = rule_model
+
+    # --------------------------------------------------
+    # Atlas Engine
+    # --------------------------------------------------
 
     engine = AtlasEngineV0_2(
         model=model_router,
