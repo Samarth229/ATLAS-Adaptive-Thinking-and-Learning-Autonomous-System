@@ -15,7 +15,7 @@ __pycache__/
 # Memory data (personal, not for GitHub)
 ATLAS/memory/interactions/
 ATLAS/memory/reflections/
-ATLAS/memory/structured/emotion_log.jsonl
+ATLAS/memory/structured/
 ATLAS/memory/system_state.json
 
 # Logs
