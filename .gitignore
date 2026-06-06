@@ -1,0 +1,37 @@
+# Virtual environments
+venv_voice/
+venv/
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Environment files
+.env
+
+# Memory data (personal, not for GitHub)
+ATLAS/memory/interactions/
+ATLAS/memory/reflections/
+ATLAS/memory/structured/emotion_log.jsonl
+ATLAS/memory/system_state.json
+
+# Logs
+ATLAS/logs/
+
+# Temp audio (generated at runtime)
+*.wav
+
+# Models (all live in E:\Requirements, never inside repo)
+*.onnx
+*.bin
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+
+# OS files
+.DS_Store
+Thumbs.db
