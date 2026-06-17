@@ -48,7 +48,7 @@ class STTEngine:
 
         segments, info = self._model.transcribe(
             audio_flat,
-            language=None,
+            language="en",
             beam_size=5,
             vad_filter=True,
             vad_parameters=dict(min_silence_duration_ms=500)

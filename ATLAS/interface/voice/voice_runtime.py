@@ -27,6 +27,9 @@ from memory.engine.profile_memory_v0_1.profile import ProfileMemoryV0_1
 from memory.engine.goal_memory_v0_1.goal import GoalMemoryV0_1
 from memory.engine.emotion_memory_v0_1.emotion_logger import EmotionMemoryV0_1
 
+from services.tools.tool_matcher_v0_1.matcher import ToolMatcher
+from services.tools.tool_definitions import app_web_tools, system_tools, utility_tools, dev_tools
+
 console = Console()
 
 
@@ -36,9 +39,19 @@ class VoiceRuntime:
         self.identity = system_context["identity"]
         self._processing_lock = threading.Lock()
         self._engine = self._build_engine()
-        self._stt = STTEngine(model_size="medium", record_seconds=6)
+        self._stt = STTEngine(model_size="medium", record_seconds=7)
         self._tts = TTSEngine()
         self._wakeword = WakeWordDetector(sensitivity=0.5)
+        self._tool_matcher = self._build_tool_matcher()
+
+    def _build_tool_matcher(self) -> ToolMatcher:
+        matcher = ToolMatcher()
+        # dev_tools first — specific project keywords must not be caught by generic app_web patterns
+        dev_tools.register_all(matcher)
+        app_web_tools.register_all(matcher)
+        system_tools.register_all(matcher, stt_engine=self._stt, tts_engine=self._tts)
+        utility_tools.register_all(matcher, stt_engine=self._stt, tts_engine=self._tts)
+        return matcher
 
     def _build_engine(self) -> AtlasEngineV0_2:
         interaction_loader = InteractionLoaderV0_1()
@@ -89,11 +102,11 @@ class VoiceRuntime:
         )
 
     def _on_wake_word(self):
-        # Prevent re-entry if already processing
         if not self._processing_lock.acquire(blocking=False):
             return
         try:
             self._tts.speak("Listening.")
+            time.sleep(0.3)
             text = self._stt.listen()
 
             if not text:
@@ -101,6 +114,23 @@ class VoiceRuntime:
                 return
 
             console.print(f"[bold green]You:[/bold green] {text}")
+
+            matches = self._tool_matcher.match_all(text)
+            if matches:
+                responses = []
+                for match in matches:
+                    try:
+                        if match["arg"] is not None:
+                            response = match["handler"](match["arg"])
+                        else:
+                            response = match["handler"]()
+                    except Exception as e:
+                        response = f"Sorry, I couldn't do that. {e}"
+                    responses.append(response)
+                combined = " ".join(responses)
+                console.print(f"[bold cyan]ATLAS:[/bold cyan] {combined}")
+                self._tts.speak(combined)
+                return
 
             result = self._engine.process(text)
             response = result.get("text", "I have no response.")
