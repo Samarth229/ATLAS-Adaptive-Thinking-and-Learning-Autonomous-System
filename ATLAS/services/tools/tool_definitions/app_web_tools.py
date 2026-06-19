@@ -2,6 +2,8 @@ import os
 import subprocess
 import webbrowser
 
+from services.tools.tool_definitions.app_launcher_v0_1.launcher import open_app
+
 
 def _open_youtube():
     webbrowser.open("https://youtube.com")
@@ -43,7 +45,6 @@ def _open_brave():
 
 
 def _open_default_browser():
-    # Opens whatever the user set as default — respects OS default
     webbrowser.open("about:blank")
     return "Opening browser."
 
@@ -91,7 +92,6 @@ def register_all(matcher):
         "open chrome", "launch chrome", "start chrome",
         "open google chrome", "chrome browser",
     ], _open_chrome)
-    # Generic "open browser" / "open the browser" — opens OS default (Brave in your case)
     matcher.register([
         "open the browser", "open browser", "open a browser",
         "launch browser", "start browser",
@@ -113,3 +113,10 @@ def register_all(matcher):
         "open downloads", "downloads folder", "open my downloads",
         "go to downloads", "show downloads",
     ], _open_downloads)
+    # Bare fallback keywords for multi-command splitting ("open brave and vs code")
+    matcher.register(["brave"], _open_brave)
+    matcher.register(["chrome"], _open_chrome)
+    matcher.register(["vs code", "vscode"], _open_vscode)
+    # Generic launcher — MUST be last. Catches "open X" for any app not matched above.
+    # Uses Start Menu search + drive fallback + caching.
+    matcher.register(["open", "launch", "start"], open_app, needs_arg=True)

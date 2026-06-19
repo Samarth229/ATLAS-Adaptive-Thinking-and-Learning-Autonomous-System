@@ -1,0 +1,221 @@
+2026-06-20 00:32:07.120 | MainThread:35516 | INFO | ********************************* Start *********************************
+2026-06-20 00:32:07.120 | MainThread:35516 | INFO | X20Launcher init start
+2026-06-20 00:32:07.120 | MainThread:35516 | INFO | init log
+2026-06-20 00:32:07.123 | MainThread:35516 | INFO | current path E:\ATLAS\ATLAS
+2026-06-20 00:32:07.123 | MainThread:35516 | INFO | Launcher version is 1.92.903
+2026-06-20 00:32:07.125 | MainThread:35516 | INFO | crashhunter transid is FFE660908A6F795B3573619DE294F4D6_1781895723807_100013018
+2026-06-20 00:32:07.125 | MainThread:35516 | ERROR | Read launch state failed, error: [Errno 2] No such file or directory: 'E:\\ATLAS\\ATLAS\\launch_record'
+2026-06-20 00:32:07.125 | MainThread:35516 | INFO | Application init start
+2026-06-20 00:32:07.127 | MainThread:35516 | INFO | Launch record
+2026-06-20 00:32:07.506 | MainThread:35516 | INFO | QMLContext init start
+2026-06-20 00:32:07.506 | MainThread:35516 | INFO | Verify invite code success. don't need invite code
+2026-06-20 00:32:07.507 | MainThread:35516 | INFO | Language: en_IN, Encoding: cp1252
+2026-06-20 00:32:07.507 | MainThread:35516 | INFO | Local Timezone Offset: 5.5 hours
+2026-06-20 00:32:07.507 | MainThread:35516 | INFO | offline marker time is 1781895727.5068681, current time:1781895727.507872, offline marker timeout is 86400
+2026-06-20 00:32:07.507 | MainThread:35516 | INFO | requesting whoami URL: https://who.easebar.com/v2
+2026-06-20 00:32:08.112 | MainThread:35516 | INFO | Updating whoami record: {'ip': '110.226.182.140', 'code': 'IN'}
+2026-06-20 00:32:08.112 | MainThread:35516 | INFO | whoami ret code: 200, setting env GAME_UNISDK_AIM_INFO
+2026-06-20 00:32:08.112 | MainThread:35516 | INFO | rg is VX7@
+2026-06-20 00:32:08.112 | MainThread:35516 | INFO | loc is NA
+2026-06-20 00:32:08.476 | MainThread:35516 | INFO | set orbit project id x20na
+2026-06-20 00:32:08.476 | MainThread:35516 | INFO | offline marker time is 1781895727.5068681, current time:1781895728.4761977, offline marker timeout is 86400
+2026-06-20 00:32:08.476 | MainThread:35516 | INFO | Start download multi patchlists
+2026-06-20 00:32:08.476 | MainThread:35516 | INFO | Start making multi requests with fallback
+2026-06-20 00:32:08.476 | MultiRequestFallback_0:15996 | INFO | start sending request (ex): https://x20na.update.easebar.com/pl/launcher_headcode_steam
+2026-06-20 00:32:08.476 | MultiRequestFallback_1:31036 | INFO | start sending request (ex): https://x20na.update.easebar.com/pl/launcher_release_steam
+2026-06-20 00:32:08.480 | MultiRequestFallback_2:31448 | INFO | start sending request (ex): https://x20na.update.easebar.com/pl/pc_release_steam
+2026-06-20 00:32:08.480 | MultiRequestFallback_3:9600 | INFO | start sending request (ex): https://x20na.update.easebar.com/pl/meta_steam
+2026-06-20 00:32:08.480 | MultiRequestFallback_4:35536 | INFO | start sending request (ex): https://x20na.update.easebar.com/pl/anti_virus_list
+2026-06-20 00:32:08.482 | MainThread:35516 | INFO | QMLContext init finish
+2026-06-20 00:32:08.499 | MainThread:35516 | INFO | Application init finish
+2026-06-20 00:32:08.536 | MultiRequestFallback_2:31448 | WARNING | request HTTP error:https://x20na.update.easebar.com/pl/pc_release_steam, status=404, reason=Not Found
+2026-06-20 00:32:08.536 | MultiRequestFallback_0:15996 | INFO | request with fallback done: https://x20na.update.easebar.com/pl/launcher_headcode_steam
+2026-06-20 00:32:08.536 | MultiRequestFallback_2:31448 | INFO | HTTP error for https://x20na.update.easebar.com/pl/pc_release_steam, skip fallback (server responded normally)
+2026-06-20 00:32:08.536 | MultiRequestFallback_1:31036 | INFO | request with fallback done: https://x20na.update.easebar.com/pl/launcher_release_steam
+2026-06-20 00:32:08.536 | MultiRequestFallback_0:15996 | INFO | start sending request (ex): https://x20na.update.easebar.com/pl/sp_pc_exe_global
+2026-06-20 00:32:08.536 | MultiRequestFallback_2:31448 | INFO | request with fallback done: https://x20na.update.easebar.com/pl/pc_release_steam
+2026-06-20 00:32:08.536 | MultiRequestFallback_1:31036 | INFO | start sending request (ex): https://x20na.update.easebar.com/pl/shelve_pc_exe_global
+2026-06-20 00:32:08.536 | MultiRequestFallback_2:31448 | INFO | start sending request (ex): https://www.marvelrivals.com/client/video.json
+2026-06-20 00:32:08.542 | MultiRequestFallback_4:35536 | INFO | request with fallback done: https://x20na.update.easebar.com/pl/anti_virus_list
+2026-06-20 00:32:08.542 | MultiRequestFallback_3:9600 | INFO | request with fallback done: https://x20na.update.easebar.com/pl/meta_steam
+2026-06-20 00:32:08.589 | MultiRequestFallback_1:31036 | INFO | request with fallback done: https://x20na.update.easebar.com/pl/shelve_pc_exe_global
+2026-06-20 00:32:08.589 | MultiRequestFallback_0:15996 | INFO | request with fallback done: https://x20na.update.easebar.com/pl/sp_pc_exe_global
+2026-06-20 00:32:08.621 | MultiRequestFallback_2:31448 | INFO | request with fallback done: https://www.marvelrivals.com/client/video.json
+2026-06-20 00:32:08.995 | DRPF:2068 | INFO | [WhoamiResultSucceed] Send drpf success
+2026-06-20 00:32:11.650 | MainThread:35516 | INFO | qml: MainWindow Completed
+2026-06-20 00:32:11.653 | MainThread:35516 | INFO | qml: BaseView Completed
+2026-06-20 00:32:11.685 | MainThread:35516 | INFO | qml: BaseView webViewComponent create
+2026-06-20 00:32:11.685 | MainThread:35516 | INFO | qml: BaseView webViewComponent Ready
+2026-06-20 00:32:12.016 | MainThread:35516 | INFO | qml: WebView onCompleted
+2026-06-20 00:32:12.016 | MainThread:35516 | INFO | qml: BaseView webViewObj create success!
+2026-06-20 00:32:12.016 | MainThread:35516 | INFO | qml: NewBaseView Completed
+2026-06-20 00:32:12.022 | MainThread:35516 | INFO | qml: AntiCheatPopup onCompleted
+2026-06-20 00:32:12.022 | MainThread:35516 | INFO | qml: ProblemFeedbackDialog onCompleted
+2026-06-20 00:32:12.178 | MainThread:35516 | INFO | qml: Webengine request started
+2026-06-20 00:32:12.272 | MainThread:35516 | INFO | qml: MainWindow lazyLoad
+2026-06-20 00:32:12.285 | MainThread:35516 | INFO | qml: MainWindowLazyLoadItem Ready
+2026-06-20 00:32:12.286 | MainThread:35516 | INFO | SelfUpdateBridge init start
+2026-06-20 00:32:12.286 | MainThread:35516 | INFO | SelfUpdateBridge init finish
+2026-06-20 00:32:12.286 | MainThread:35516 | INFO | DownloadBridge init start
+2026-06-20 00:32:12.286 | MainThread:35516 | INFO | DownloadBridge init finish
+2026-06-20 00:32:12.286 | MainThread:35516 | INFO | RepairBridge init start
+2026-06-20 00:32:12.286 | MainThread:35516 | INFO | RepairBridge init finish
+2026-06-20 00:32:12.286 | MainThread:35516 | INFO | SettingsBridge init start
+2026-06-20 00:32:12.368 | MainThread:35516 | INFO | SettingsBridge init finish
+2026-06-20 00:32:12.410 | MainThread:35516 | INFO | qml: MainWindowLazyLoadItem Completed
+2026-06-20 00:32:12.413 | MainThread:35516 | INFO | qml: BaseView lazyLoad
+2026-06-20 00:32:12.413 | MainThread:35516 | INFO | qml: BaseViewLazyLoadItem Ready
+2026-06-20 00:32:13.849 | MainThread:35516 | INFO | qml: BaseViewLazyLoadItem Completed
+2026-06-20 00:32:13.850 | MainThread:35516 | INFO | qml: handleLazyLoadSuccess
+2026-06-20 00:32:13.851 | ClearOutdateGameLog:31608 | INFO | Clear LegacySaved
+2026-06-20 00:32:13.915 | CheckGameExeVersion:34400 | INFO | CheckGameExeVersionWorker start
+2026-06-20 00:32:13.921 | ClearOutdateGameLog:31608 | INFO | Clear outdate game log
+2026-06-20 00:32:13.922 | CheckGameExeVersion:34400 | INFO | Check game E:\ATLAS\ATLAS\MarvelGame\Marvel.exe is exists: False, and version is 
+2026-06-20 00:32:14.073 | MainThread:35516 | INFO | qml: mainWindow visible
+2026-06-20 00:32:14.076 | SyncLanguage:24008 | INFO | SyncLanguageWorker start
+2026-06-20 00:32:14.076 | MetaInfoLog:16964 | INFO | MetaInfoLogWorker start
+2026-06-20 00:32:14.077 | MainThread:35516 | INFO | xinput1_4 loaded
+2026-06-20 00:32:14.077 | MainThread:35516 | INFO | WinMM API initialized
+2026-06-20 00:32:14.078 | LogicInit:8572 | INFO | start check headcode
+2026-06-20 00:32:14.078 | LogicInit:8572 | INFO | empty headcode patchlist, ignore
+2026-06-20 00:32:14.078 | MainThread:35516 | INFO | qml: SettingsDialog Completed
+2026-06-20 00:32:14.078 | MainThread:35516 | INFO | qml: BaseCombobox Completed
+2026-06-20 00:32:14.079 | CleanupDownloads:34216 | INFO | Cleaning incomplete downloads older than 7 days
+2026-06-20 00:32:14.079 | GamepadMonitor:24664 | INFO | GamepadMonitorWorker start
+2026-06-20 00:32:14.079 | DownloadWebVideo:6500 | INFO | 尝试获取真实文件名: https://mrcn.fp.ps.netease.com/file/6a338f253c8da95f819a9df2MYApFgky07
+2026-06-20 00:32:14.079 | MainThread:35516 | INFO | qml: ProblemFeedbackDialog onCompleted
+2026-06-20 00:32:14.080 | MainThread:35516 | INFO | qml: UploadDialog Completed
+2026-06-20 00:32:14.080 | MainThread:35516 | INFO | qml: QuitDialog Completed
+2026-06-20 00:32:14.080 | MainThread:35516 | INFO | qml: ExperimentalFeatureSwitch Completed
+2026-06-20 00:32:14.080 | MainThread:35516 | INFO | qml: ProblemFeedbackDialog onCompleted
+2026-06-20 00:32:14.080 | MainThread:35516 | INFO | qml: DownloadProgress Completed
+2026-06-20 00:32:14.080 | MainThread:35516 | INFO | qml: SelfUpdateView Completed
+2026-06-20 00:32:14.115 | UploadProfile:25896 | ERROR | Upload profile failed: [WinError 2] The system cannot find the file specified
+2026-06-20 00:32:14.115 | LogicInit:8572 | INFO | Start check self update
+2026-06-20 00:32:14.115 | LogicInit:8572 | WARNING | Patchlist content is empty, cannot parse
+2026-06-20 00:32:14.115 | LogicInit:8572 | INFO | Get server patchlist data is empty. cannot update
+2026-06-20 00:32:14.116 | LogicInit:8572 | INFO | Start check game update
+2026-06-20 00:32:14.116 | LogicInit:8572 | WARNING | first remote download patchlist content is empty, start second try
+2026-06-20 00:32:14.116 | LogicInit:8572 | INFO | start sending request (ex): https://x20na.update.easebar.com/pl/pc_release_steam
+2026-06-20 00:32:14.143 | LogicInit:8572 | WARNING | request HTTP error:https://x20na.update.easebar.com/pl/pc_release_steam, status=404, reason=Not Found
+2026-06-20 00:32:14.143 | LogicInit:8572 | INFO | HTTP error for https://x20na.update.easebar.com/pl/pc_release_steam, skip fallback (server responded normally)
+2026-06-20 00:32:14.145 | LogicInit:8572 | INFO | Check update, remote version is 0 <class 'str'>
+2026-06-20 00:32:14.145 | LogicInit:8572 | INFO | Check update, local version is 0
+2026-06-20 00:32:14.145 | LogicInit:8572 | INFO | Start qsec
+2026-06-20 00:32:14.509 | LogicInit:8572 | INFO | Start check local env
+2026-06-20 00:32:14.509 | LogicInit:8572 | INFO | start execute env check [check_local_dll]
+2026-06-20 00:32:14.510 | LogicInit:8572 | INFO | executed env check [check_local_dll]
+2026-06-20 00:32:14.510 | LogicInit:8572 | INFO | start execute env check [install_dependency]
+2026-06-20 00:32:14.510 | LogicInit:8572 | INFO | Non-Epic channel, skip install dependency
+2026-06-20 00:32:14.510 | LogicInit:8572 | INFO | executed env check [install_dependency]
+2026-06-20 00:32:14.510 | LogicInit:8572 | INFO | start execute env check [check_gpu_driver]
+2026-06-20 00:32:14.510 | LogicInit:8572 | INFO | Driver: Intel(R) UHD Graphics, Driver date >= 20240221000000, check passed
+2026-06-20 00:32:14.510 | LogicInit:8572 | WARNING | get gpu has error:
+2026-06-20 00:32:14.510 | LogicInit:8572 | WARNING | Driver: NVIDIA GeForce RTX 4050 Laptop GPU, Driver date 20250727000000 < 20250815000000, check failed
+2026-06-20 00:32:14.510 | LogicInit:8572 | INFO | executed env check [check_gpu_driver]
+2026-06-20 00:32:14.510 | LogicInit:8572 | INFO | start execute env check [check_windows_version]
+2026-06-20 00:32:14.616 | DLLCheck:12876 | INFO | DLL check results written to C:\Users\Samarth Kadam\AppData\Local\Marvel\Saved\integrity_check_results.json
+2026-06-20 00:32:14.660 | LogicInit:8572 | INFO | Windows version is: 10.0.26200
+2026-06-20 00:32:14.660 | LogicInit:8572 | INFO | Windows version, check passed
+2026-06-20 00:32:14.660 | LogicInit:8572 | INFO | executed env check [check_windows_version]
+2026-06-20 00:32:14.660 | LogicInit:8572 | INFO | start execute env check [check_gpu_memory]
+2026-06-20 00:32:14.660 | LogicInit:8572 | INFO | [get_max_vram_from_registry] current Model: NVIDIA GeForce RTX 4050 Laptop GPU, VRAM (GB): 6.0
+2026-06-20 00:32:14.761 | DownloadWebVideo:6500 | INFO | Content-Type: video/mp4; charset=binary
+2026-06-20 00:32:14.761 | DownloadWebVideo:6500 | INFO | get extension from Content-Type: 6a338f253c8da95f819a9df2MYApFgky07.mp4
+2026-06-20 00:32:14.761 | DownloadWebVideo:6500 | INFO | get final filename: 6a338f253c8da95f819a9df2MYApFgky07.mp4
+2026-06-20 00:32:14.761 | DownloadWebVideo:6500 | INFO | extract filename from url: 6a338f253c8da95f819a9df2MYApFgky07.mp4
+2026-06-20 00:32:14.761 | DownloadWebVideo:6500 | INFO | play stream video and start background download
+2026-06-20 00:32:14.765 | Thread-9 (download_worker):35164 | INFO | Start downloading file: 6a338f253c8da95f819a9df2MYApFgky07.mp4 from https://mrcn.fp.ps.netease.com/file/6a338f253c8da95f819a9df2MYApFgky07
+2026-06-20 00:32:14.765 | DownloadWebVideo:6500 | INFO | Background download started: 6a338f253c8da95f819a9df2MYApFgky07.mp4
+2026-06-20 00:32:14.782 | DRPF:35828 | INFO | [OpenLauncher] Send drpf success
+2026-06-20 00:32:14.896 | LogicInit:8572 | INFO | [nvidia smi] Max VRAM GPU: 6.00 GB
+2026-06-20 00:32:14.896 | LogicInit:8572 | INFO | [check_total_gpu_memory-smi] detected max Model: NVIDIA GeForce RTX 4050 Laptop GPU, VRAM (GB): 5.9970703125
+2026-06-20 00:32:14.896 | LogicInit:8572 | INFO | executed env check [check_gpu_memory]
+2026-06-20 00:32:14.896 | LogicInit:8572 | INFO | start execute env check [check_cpu_name]
+2026-06-20 00:32:14.896 | LogicInit:8572 | INFO | Check cpu name,  cpu name: 13th Gen Intel(R) Core(TM) i7-13650HX
+2026-06-20 00:32:14.896 | LogicInit:8572 | INFO | intel cpu, start check gen
+2026-06-20 00:32:14.896 | LogicInit:8572 | INFO | cpu name check passed
+2026-06-20 00:32:14.896 | LogicInit:8572 | INFO | executed env check [check_cpu_name]
+2026-06-20 00:32:14.896 | LogicInit:8572 | INFO | start execute env check [check_steam_id_txt]
+2026-06-20 00:32:14.896 | LogicInit:8572 | ERROR | Failed to create E:\ATLAS\ATLAS\MarvelGame\Marvel\Binaries\Win64\steam_appid.txt, Error: [Errno 2] No such file or directory: 'E:\\ATLAS\\ATLAS\\MarvelGame\\Marvel\\Binaries\\Win64\\steam_appid.txt'
+2026-06-20 00:32:14.896 | LogicInit:8572 | INFO | executed env check [check_steam_id_txt]
+2026-06-20 00:32:14.896 | LogicInit:8572 | INFO | start execute env check [check_invalid_pak]
+2026-06-20 00:32:14.896 | LogicInit:8572 | INFO | [get_paklist_from_version_info]version.json not found, skip
+2026-06-20 00:32:14.896 | LogicInit:8572 | WARNING | get pak list failed, skip check blacklist pak
+2026-06-20 00:32:14.896 | LogicInit:8572 | INFO | executed env check [check_invalid_pak]
+2026-06-20 00:32:14.896 | LogicInit:8572 | INFO | start execute env check [check_gpu_crashes]
+2026-06-20 00:32:14.896 | LogicInit:8572 | INFO | current crashes folder: C:\Users\Samarth Kadam\AppData\Local\Marvel\Saved\Crashes
+2026-06-20 00:32:14.897 | LogicInit:8572 | INFO | executed env check [check_gpu_crashes]
+2026-06-20 00:32:14.897 | LogicInit:8572 | INFO | start execute env check [check_pak_crashes]
+2026-06-20 00:32:14.897 | LogicInit:8572 | INFO | [get_paklist_from_version_info]version.json not found, skip
+2026-06-20 00:32:14.897 | LogicInit:8572 | WARNING | get pak list failed, skip check invalid pak marker
+2026-06-20 00:32:14.897 | LogicInit:8572 | INFO | [check_pak_crashes] current crashes folder: C:\Users\Samarth Kadam\AppData\Local\Marvel\Saved\Crashes
+2026-06-20 00:32:14.899 | LogicInit:8572 | INFO | pak crashes xml not found, skip check pak crash
+2026-06-20 00:32:14.899 | LogicInit:8572 | INFO | executed env check [check_pak_crashes]
+2026-06-20 00:32:14.899 | LogicInit:8572 | INFO | start execute env check [check_anti_virus]
+2026-06-20 00:32:14.924 | LogicInit:8572 | INFO | executed env check [check_anti_virus]
+2026-06-20 00:32:14.924 | LogicInit:8572 | INFO | start execute env check [check_season_crashes]
+2026-06-20 00:32:14.924 | LogicInit:8572 | INFO | [get_paklist_from_version_info]version.json not found, skip
+2026-06-20 00:32:14.924 | LogicInit:8572 | WARNING | get pak list failed, skip check redundant pak
+2026-06-20 00:32:14.924 | LogicInit:8572 | INFO | current crashes folder: C:\Users\Samarth Kadam\AppData\Local\Marvel\Saved\Crashes
+2026-06-20 00:32:14.924 | LogicInit:8572 | WARNING | version_info_path E:\ATLAS\ATLAS\MarvelGame\version.json not found
+2026-06-20 00:32:14.924 | LogicInit:8572 | INFO | executed env check [check_season_crashes]
+2026-06-20 00:32:14.928 | LogicInit:8572 | INFO | start execute env check [check_season_cache]
+2026-06-20 00:32:14.928 | check_season_cache:23112 | INFO | clear season cache start, current season: 8-2, recorded season: 8-1
+2026-06-20 00:32:14.928 | LogicInit:8572 | INFO | executed env check [check_season_cache]
+2026-06-20 00:32:14.928 | LogicInit:8572 | INFO | start execute env check [check_gpu_right_used]
+2026-06-20 00:32:14.928 | LogicInit:8572 | INFO | executed env check [check_gpu_right_used]
+2026-06-20 00:32:14.928 | LogicInit:8572 | INFO | start execute env check [check_win8rtm]
+2026-06-20 00:32:14.928 | LogicInit:8572 | INFO | check win8rtm res: False
+2026-06-20 00:32:14.928 | LogicInit:8572 | INFO | executed env check [check_win8rtm]
+2026-06-20 00:32:14.930 | LogicInit:8572 | INFO | Start one time clear
+2026-06-20 00:32:14.946 | LogicInit:8572 | INFO | Init finished, can click start button
+2026-06-20 00:32:14.948 | MainThread:35516 | INFO | qml: loading from net...
+2026-06-20 00:32:14.948 | check_season_cache:23112 | INFO | Successfully deleted: C:\Users\Samarth Kadam\AppData\Local\NVIDIA\DXCache\0002a93843ede110.nvph
+2026-06-20 00:32:14.948 | MainThread:35516 | INFO | Handle initialize finished
+2026-06-20 00:32:14.950 | check_season_cache:23112 | INFO | Successfully deleted: C:\Users\Samarth Kadam\AppData\Local\NVIDIA\DXCache\aab1a93843ede110.nvph
+2026-06-20 00:32:14.950 | check_season_cache:23112 | INFO | [clear_logs] Completed. Deleted 1 items
+2026-06-20 00:32:14.950 | check_season_cache:23112 | INFO | clear season cache completed, updated season mark to: 8-2
+2026-06-20 00:32:15.047 | Thread-9 (download_worker):35164 | INFO | File size: 171557247 bytes, supports resume: True
+2026-06-20 00:32:15.047 | Thread-9 (download_worker):35164 | INFO | Creating initial download metadata: 6a338f253c8da95f819a9df2MYApFgky07.mp4
+2026-06-20 00:32:15.370 | DRPF:28128 | INFO | [GPURightUsed] Send drpf success
+2026-06-20 00:32:15.830 | MainThread:35516 | INFO | qml: Webengine request succeeded
+2026-06-20 00:32:16.200 | MainThread:35516 | INFO | qml: video loaded (may be from buffer).
+2026-06-20 00:32:16.330 | MainThread:35516 | INFO | qml: buffed, ready to play...
+2026-06-20 00:32:21.384 | TryStart:24364 | INFO | start sending request (ex): https://x20na.update.easebar.com/pl/launcher_release_steam
+2026-06-20 00:32:21.441 | TryStart:24364 | WARNING | Patchlist content is empty, cannot parse
+2026-06-20 00:32:21.441 | TryStart:24364 | INFO | Get server patchlist data is empty. cannot update
+2026-06-20 00:32:21.460 | TryStart:24364 | WARNING | first remote download patchlist content is empty, start second try
+2026-06-20 00:32:21.460 | TryStart:24364 | INFO | start sending request (ex): https://x20na.update.easebar.com/pl/pc_release_steam
+2026-06-20 00:32:21.502 | TryStart:24364 | WARNING | request HTTP error:https://x20na.update.easebar.com/pl/pc_release_steam, status=404, reason=Not Found
+2026-06-20 00:32:21.502 | TryStart:24364 | INFO | HTTP error for https://x20na.update.easebar.com/pl/pc_release_steam, skip fallback (server responded normally)
+2026-06-20 00:32:21.502 | TryStart:24364 | INFO | Check update, remote version is 0 <class 'str'>
+2026-06-20 00:32:21.502 | TryStart:24364 | INFO | Check update, local version is 0
+2026-06-20 00:32:21.502 | TryStart:24364 | WARNING | first remote download patchlist content is empty, start second try
+2026-06-20 00:32:21.502 | TryStart:24364 | INFO | start sending request (ex): https://x20na.update.easebar.com/pl/meta_steam
+2026-06-20 00:32:21.543 | TryStart:24364 | INFO | exe or version.json corrupted, cannot continue try start
+2026-06-20 00:32:30.651 | TryStart:34648 | INFO | start sending request (ex): https://x20na.update.easebar.com/pl/launcher_release_steam
+2026-06-20 00:32:30.694 | TryStart:34648 | WARNING | Patchlist content is empty, cannot parse
+2026-06-20 00:32:30.694 | TryStart:34648 | INFO | Get server patchlist data is empty. cannot update
+2026-06-20 00:32:30.697 | TryStart:34648 | WARNING | first remote download patchlist content is empty, start second try
+2026-06-20 00:32:30.697 | TryStart:34648 | INFO | start sending request (ex): https://x20na.update.easebar.com/pl/pc_release_steam
+2026-06-20 00:32:30.797 | TryStart:34648 | WARNING | request HTTP error:https://x20na.update.easebar.com/pl/pc_release_steam, status=404, reason=Not Found
+2026-06-20 00:32:30.797 | TryStart:34648 | INFO | HTTP error for https://x20na.update.easebar.com/pl/pc_release_steam, skip fallback (server responded normally)
+2026-06-20 00:32:30.797 | TryStart:34648 | INFO | Check update, remote version is 0 <class 'str'>
+2026-06-20 00:32:30.797 | TryStart:34648 | INFO | Check update, local version is 0
+2026-06-20 00:32:30.797 | TryStart:34648 | WARNING | first remote download patchlist content is empty, start second try
+2026-06-20 00:32:30.797 | TryStart:34648 | INFO | start sending request (ex): https://x20na.update.easebar.com/pl/meta_steam
+2026-06-20 00:32:30.831 | TryStart:34648 | INFO | exe or version.json corrupted, cannot continue try start
+2026-06-20 00:32:41.111 | MainThread:35516 | INFO | SyncLanguageWorker stop
+2026-06-20 00:32:42.087 | MainThread:35516 | INFO | MetaInfoLogWorker stop
+2026-06-20 00:32:44.087 | MainThread:35516 | INFO | GamepadMonitorWorker stop
+2026-06-20 00:32:44.526 | MainThread:35516 | INFO | CheckGameExeVersionWorker stop
+2026-06-20 00:32:45.940 | MainThread:35516 | INFO | Qt quit
+2026-06-20 00:32:45.960 | MainThread:35516 | INFO | qml: MediaPlayer onDestruction
+2026-06-20 00:32:45.961 | MainThread:35516 | INFO | qml: source is empty...
+2026-06-20 00:32:45.971 | MainThread:35516 | INFO | qml: source is empty...
+2026-06-20 00:32:45.971 | MainThread:35516 | INFO | qml: MediaPlayer cleanup completed
+2026-06-20 00:32:47.959 | MainThread:35516 | INFO | ********************************* End, return code: 0 *********************************
+
+[2026-06-20 00:32:08.117] [launcher] [info] LauncherApplication initialize
+[2026-06-20 00:32:08.478] [launcher] [info] "E:\\ATLAS\\ATLAS\\temp\\.updater" deleted successfully.

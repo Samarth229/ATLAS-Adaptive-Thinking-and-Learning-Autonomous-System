@@ -28,7 +28,8 @@ from memory.engine.goal_memory_v0_1.goal import GoalMemoryV0_1
 from memory.engine.emotion_memory_v0_1.emotion_logger import EmotionMemoryV0_1
 
 from services.tools.tool_matcher_v0_1.matcher import ToolMatcher
-from services.tools.tool_definitions import app_web_tools, system_tools, utility_tools, dev_tools
+from services.tools.tool_definitions import app_web_tools, system_tools, utility_tools, dev_tools, awareness_tools
+from services.monitoring.system_awareness_v0_1.awareness import system_awareness
 
 console = Console()
 
@@ -46,11 +47,15 @@ class VoiceRuntime:
 
     def _build_tool_matcher(self) -> ToolMatcher:
         matcher = ToolMatcher()
-        # dev_tools first — specific project keywords must not be caught by generic app_web patterns
-        dev_tools.register_all(matcher)
-        app_web_tools.register_all(matcher)
-        system_tools.register_all(matcher, stt_engine=self._stt, tts_engine=self._tts)
+        # Registration order = priority order (first match wins).
+        # Long specific-phrase tools before short/bare-keyword tools.
+        # awareness_tools and utility_tools have multi-word phrases that must beat
+        # bare keywords like "brave"/"chrome" in app_web_tools.
+        awareness_tools.register_all(matcher)
         utility_tools.register_all(matcher, stt_engine=self._stt, tts_engine=self._tts)
+        dev_tools.register_all(matcher)
+        system_tools.register_all(matcher, stt_engine=self._stt, tts_engine=self._tts)
+        app_web_tools.register_all(matcher)
         return matcher
 
     def _build_engine(self) -> AtlasEngineV0_2:
@@ -147,6 +152,7 @@ class VoiceRuntime:
         console.print("[bold yellow]ATLAS Voice Runtime Active[/bold yellow]")
         console.print("[dim]Say 'Hey Jarvis' to activate. Ctrl+C to exit.[/dim]")
 
+        system_awareness.start()
         self._tts.speak("ATLAS voice system online.")
         self._wakeword.start_listening(self._on_wake_word)
 
@@ -155,4 +161,5 @@ class VoiceRuntime:
                 time.sleep(0.1)
         except KeyboardInterrupt:
             self._wakeword.stop()
+            system_awareness.stop()
             console.print("\n[bold red]Voice runtime shut down.[/bold red]")
