@@ -302,18 +302,15 @@ def resolve_app_path_with_confidence(name: str):
     cache = _load_cache()
 
     if name_clean in cache and os.path.exists(cache[name_clean]):
-        print(f"[DEBUG] '{name}' -> CACHE hit: {cache[name_clean]}")
         return (cache[name_clean], 1.0, name_clean)
 
     path = _resolve_known_app(name_clean)
     if path:
-        print(f"[DEBUG] '{name}' -> TIER 1 (known): {path}")
         return (path, 1.0, name_clean)
 
     result = _search_start_menu_with_confidence(name_clean)
     if result:
         path, confidence, matched_name = result
-        print(f"[DEBUG] '{name}' -> TIER 2 (start menu): conf={confidence:.3f} matched='{matched_name}' path={path}")
         if confidence >= 0.75:
             cache[name_clean] = path
             _save_cache(cache)
@@ -322,7 +319,6 @@ def resolve_app_path_with_confidence(name: str):
     result = _search_drives_fallback_with_confidence(name_clean)
     if result:
         path, confidence, matched_name = result
-        print(f"[DEBUG] '{name}' -> TIER 3 (drive search): conf={confidence:.3f} matched='{matched_name}' path={path}")
         if confidence >= 0.85:
             cache[name_clean] = path
             _save_cache(cache)
@@ -330,11 +326,8 @@ def resolve_app_path_with_confidence(name: str):
 
     result = _search_uwp_apps(name_clean)
     if result:
-        path, confidence, matched_name = result
-        print(f"[DEBUG] '{name}' -> TIER 4 (UWP): conf={confidence:.3f} matched='{matched_name}' path={path}")
-        return (path, confidence, matched_name)
+        return result
 
-    print(f"[DEBUG] '{name}' -> NOT FOUND in any tier")
     return None
 
 

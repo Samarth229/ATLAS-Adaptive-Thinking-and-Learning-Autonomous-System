@@ -18,8 +18,18 @@ ATLAS/memory/reflections/
 ATLAS/memory/structured/
 ATLAS/memory/system_state.json
 
-# Logs
+# Logs and runtime state
 ATLAS/logs/
+ATLAS/Log/
+ATLAS/launch_record
+
+# Videos and downloaded media
+ATLAS/videos/
+*.mp4
+*.mp4.download_meta
+
+# Personal/unrelated documents
+*.pdf
 
 # Temp audio (generated at runtime)
 *.wav
