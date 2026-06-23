@@ -28,8 +28,10 @@ from memory.engine.goal_memory_v0_1.goal import GoalMemoryV0_1
 from memory.engine.emotion_memory_v0_1.emotion_logger import EmotionMemoryV0_1
 
 from services.tools.tool_matcher_v0_1.matcher import ToolMatcher
-from services.tools.tool_definitions import app_web_tools, system_tools, utility_tools, dev_tools, awareness_tools
+from services.tools.tool_definitions import app_web_tools, system_tools, utility_tools, dev_tools, awareness_tools, vision_tools
 from services.monitoring.system_awareness_v0_1.awareness import system_awareness
+from services.monitoring.proactive_engine_v0_1.engine import ProactiveEngine
+from interface.voice.chime import play_chime
 
 console = Console()
 
@@ -44,6 +46,7 @@ class VoiceRuntime:
         self._tts = TTSEngine()
         self._wakeword = WakeWordDetector(sensitivity=0.5)
         self._tool_matcher = self._build_tool_matcher()
+        self._proactive_engine = ProactiveEngine(on_trigger_callback=self._on_proactive_trigger)
 
     def _build_tool_matcher(self) -> ToolMatcher:
         matcher = ToolMatcher()
@@ -55,6 +58,7 @@ class VoiceRuntime:
         utility_tools.register_all(matcher, stt_engine=self._stt, tts_engine=self._tts)
         dev_tools.register_all(matcher)
         system_tools.register_all(matcher, stt_engine=self._stt, tts_engine=self._tts)
+        vision_tools.register_all(matcher)
         app_web_tools.register_all(matcher)
         return matcher
 
@@ -106,6 +110,25 @@ class VoiceRuntime:
             emotion_memory=emotion_memory
         )
 
+    def _on_proactive_trigger(self, message: str):
+        """Chime → 5-second listen window → speak only if user responded."""
+        if not self._processing_lock.acquire(blocking=False):
+            return  # busy with wake-word pipeline, skip this cycle
+        try:
+            play_chime()
+            console.print("[bold yellow][Proactive] Chime played — waiting for response...[/bold yellow]")
+            response_text = self._stt.listen()
+            if response_text and response_text.strip():
+                console.print(f"[bold green]You (proactive):[/bold green] {response_text}")
+                console.print(f"[bold cyan]ATLAS:[/bold cyan] {message}")
+                self._tts.speak(message)
+            else:
+                console.print(f"[dim][Proactive] No response — staying quiet.[/dim]")
+        except Exception as e:
+            console.print(f"[red]Proactive trigger error: {e}[/red]")
+        finally:
+            self._processing_lock.release()
+
     def _on_wake_word(self):
         if not self._processing_lock.acquire(blocking=False):
             return
@@ -153,6 +176,7 @@ class VoiceRuntime:
         console.print("[dim]Say 'Hey Jarvis' to activate. Ctrl+C to exit.[/dim]")
 
         system_awareness.start()
+        self._proactive_engine.start()
         self._tts.speak("ATLAS voice system online.")
         self._wakeword.start_listening(self._on_wake_word)
 
@@ -162,4 +186,5 @@ class VoiceRuntime:
         except KeyboardInterrupt:
             self._wakeword.stop()
             system_awareness.stop()
+            self._proactive_engine.stop()
             console.print("\n[bold red]Voice runtime shut down.[/bold red]")

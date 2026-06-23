@@ -1,6 +1,7 @@
 import re
 from services.monitoring.system_awareness_v0_1.awareness import system_awareness
 from services.monitoring.system_awareness_v0_1.history_logger import history_logger
+from services.monitoring.pattern_learning_v0_1.stats_engine import pattern_stats
 
 # Trailing words that get included in arg extraction but should be stripped.
 # Allow optional punctuation/whitespace around the qualifier (STT often adds ? or .)
@@ -88,6 +89,17 @@ def _most_used_today(arg=None):
     return "Today you spent the most time on: " + ", ".join(parts) + "."
 
 
+def _learning_progress(arg=None):
+    coverage = pattern_stats.get_data_coverage()
+    days = coverage["days_available"]
+    if days == 0:
+        return "I don't have any activity history logged yet."
+    if coverage["reliable"]:
+        return f"I have {days} days of activity history — enough to start recognizing real patterns."
+    remaining = 14 - days
+    return f"I have {days} day{'s' if days != 1 else ''} of activity history so far. I'll need about {remaining} more days before patterns become reliable."
+
+
 def register_all(matcher):
     matcher.register([
         "what app am i in", "what am i doing", "what window is open",
@@ -142,3 +154,9 @@ def register_all(matcher):
         "what app have i used the most", "which app did i use the most",
         "what have i used today", "what apps have i used today",
     ], _most_used_today)
+
+    matcher.register([
+        "how much have you learned", "what's your learning progress",
+        "how much data do you have", "how many days of data",
+        "what have you learned about me", "learning progress",
+    ], _learning_progress)

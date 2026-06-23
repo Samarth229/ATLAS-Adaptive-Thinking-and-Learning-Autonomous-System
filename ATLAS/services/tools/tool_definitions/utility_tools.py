@@ -1,7 +1,52 @@
 import json
 import os
+import re
 import requests
+import parsedatetime
 from datetime import datetime
+
+_cal = parsedatetime.Calendar()
+
+_NUM_WORDS = (
+    r"(?:\d+|one|two|three|four|five|six|seven|eight|nine|ten|"
+    r"eleven|twelve|fifteen|twenty|thirty|forty|fifty|sixty|"
+    r"a|an|half)"
+)
+_TIME_PHRASE_PATTERNS = [
+    # "at 2:37pm", "at 2.37pm", "at 5pm", "at 14:00" — colon, period, or no separator
+    r'\bat \d{1,2}[:.]\d{2}\s*(am|pm)?\b',
+    r'\bat \d{1,2}\s*(am|pm)\b',
+    rf'\bin {_NUM_WORDS}\s*(minute|minutes|min|mins|hour|hours|hr|hrs|day|days)\b',
+    r'\btonight\b',
+    r'\btoday\b',
+    r'\btomorrow\b',
+    r'\bnext\s+(week|monday|tuesday|wednesday|thursday|friday|saturday|sunday)\b',
+    r'\bon\s+(monday|tuesday|wednesday|thursday|friday|saturday|sunday)\b',
+]
+
+
+def _normalize_time_separators(text: str) -> str:
+    """Converts period-separated times like '2.37pm' to '2:37pm' so parsedatetime can parse them."""
+    return re.sub(r'\b(\d{1,2})\.(\d{2})\s*(am|pm)\b', r'\1:\2\3', text, flags=re.IGNORECASE)
+
+
+def _parse_due_time_and_clean(text: str):
+    """
+    Parses a due time from natural language and returns (due_time_or_None, cleaned_text).
+    cleaned_text has the time phrase stripped so stored reminders read naturally
+    (e.g. "call mom at 5pm" → due=5PM, text="call mom").
+    Normalizes period-separated times (2.37pm → 2:37pm) before parsing.
+    """
+    normalized = _normalize_time_separators(text)
+    time_struct, parse_status = _cal.parseDT(normalized, sourceTime=datetime.now())
+    if parse_status == 0:
+        return None, text
+
+    cleaned = text  # strip from original (not normalized) for natural display
+    for pattern in _TIME_PHRASE_PATTERNS:
+        cleaned = re.sub(pattern, "", cleaned, flags=re.IGNORECASE)
+    cleaned = re.sub(r"\s+", " ", cleaned).strip().rstrip(".,!? ")
+    return time_struct, cleaned if cleaned else text
 
 _REMINDERS_PATH = os.path.normpath(os.path.join(
     os.path.dirname(__file__), "..", "..", "..", "memory", "structured", "reminders.json"
@@ -96,10 +141,20 @@ def make_set_reminder_handler(stt, tts):
             text = stt.listen()
             if not text or not text.strip():
                 return "I didn't catch the reminder. Please try again."
+        due_time, clean_text = _parse_due_time_and_clean(text.strip())
+        reminder = {
+            "text": clean_text,
+            "created_at": datetime.now().isoformat(),
+            "due_at": due_time.isoformat() if due_time else None,
+            "notified": False,
+        }
         reminders = _load_reminders()
-        reminders.append({"text": text.strip(), "created_at": datetime.now().isoformat()})
+        reminders.append(reminder)
         _save_reminders(reminders)
-        return f"Reminder set: {text.strip()}."
+        if due_time:
+            due_str = due_time.strftime("%I:%M %p").lstrip("0")
+            return f"Reminder set: {clean_text}. I'll remind you at {due_str}."
+        return f"Reminder set: {clean_text}."
     return _set_reminder
 
 

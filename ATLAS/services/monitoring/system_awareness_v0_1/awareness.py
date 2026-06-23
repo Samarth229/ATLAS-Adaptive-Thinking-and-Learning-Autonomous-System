@@ -1,5 +1,6 @@
 import time
 import threading
+from collections import deque
 import psutil
 
 try:
@@ -10,6 +11,7 @@ except ImportError:
     win32gui = None
 
 from services.monitoring.system_awareness_v0_1.history_logger import history_logger
+from services.monitoring.proactive_engine_v0_1.content_classifier import classify_window
 
 
 _KNOWN_APPS = {
@@ -79,6 +81,7 @@ class SystemAwareness:
         }
         self._running = False
         self._thread = None
+        self._recent_switches = deque(maxlen=50)
 
     def start(self):
         if self._running:
@@ -130,6 +133,14 @@ class SystemAwareness:
                     focus_start = time.time()
                     last_title = title
                     history_logger.on_window_change(process_name, title)
+                    classification = classify_window(process_name, title)
+                    with self._lock:
+                        self._recent_switches.append({
+                            "timestamp": time.time(),
+                            "process": process_name,
+                            "title": title,
+                            "classification": classification,
+                        })
 
                 with self._lock:
                     self._state.update({
@@ -149,6 +160,24 @@ class SystemAwareness:
     def get_state(self) -> dict:
         with self._lock:
             return dict(self._state)
+
+    def get_recent_switch_classification_summary(self, window_seconds: float = 300) -> dict:
+        """Returns a summary of window switches in the last `window_seconds` with classification counts."""
+        now = time.time()
+        with self._lock:
+            recent = [s for s in self._recent_switches if now - s["timestamp"] <= window_seconds]
+        total = len(recent)
+        productive = sum(1 for s in recent if s["classification"] == "productive")
+        distraction = sum(1 for s in recent if s["classification"] == "distraction")
+        neutral = sum(1 for s in recent if s["classification"] == "neutral")
+        return {
+            "switch_count": total,
+            "productive_count": productive,
+            "distraction_count": distraction,
+            "neutral_count": neutral,
+            "distraction_ratio": (distraction / total) if total > 0 else 0.0,
+            "distinct_apps": len(set(s["process"] for s in recent if s["process"])),
+        }
 
     def get_focus_duration_seconds(self) -> float:
         with self._lock:
