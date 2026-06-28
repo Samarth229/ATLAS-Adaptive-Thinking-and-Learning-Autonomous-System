@@ -2,10 +2,47 @@ import sys
 import os
 import time
 import threading
+import json
+import tempfile
 
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), "..", ".."))
 
 from rich.console import Console
+
+_GUI_LOG_PATH = r"E:\Requirements\atlas_gui_conversation_log.json"
+_GUI_NOTIFICATION_PATH = r"E:\Requirements\atlas_gui_last_notification.json"
+
+
+def _atomic_write_json(path: str, data):
+    """Write JSON atomically — temp file then os.replace() so readers never see a partial write."""
+    dir_name = os.path.dirname(path)
+    with tempfile.NamedTemporaryFile(
+        mode="w", dir=dir_name, delete=False, encoding="utf-8", suffix=".tmp"
+    ) as tmp_f:
+        json.dump(data, tmp_f)
+        tmp_path = tmp_f.name
+    os.replace(tmp_path, path)
+
+
+def _log_for_gui(speaker: str, text: str):
+    try:
+        log = []
+        if os.path.exists(_GUI_LOG_PATH):
+            with open(_GUI_LOG_PATH, "r", encoding="utf-8-sig") as f:
+                log = json.load(f)
+        log.append({"speaker": speaker, "text": text, "timestamp": time.time()})
+        log = log[-50:]
+        _atomic_write_json(_GUI_LOG_PATH, log)
+    except Exception as e:
+        print(f"[GUI LOG ERROR] {e}")
+
+
+def _write_notification_for_gui(message: str):
+    try:
+        with open(_GUI_NOTIFICATION_PATH, "w", encoding="utf-8") as f:
+            json.dump({"message": message, "timestamp": time.time()}, f)
+    except Exception:
+        pass
 
 from interface.voice.stt_engine import STTEngine
 from interface.voice.tts_engine import TTSEngine
@@ -31,6 +68,7 @@ from services.tools.tool_matcher_v0_1.matcher import ToolMatcher
 from services.tools.tool_definitions import app_web_tools, system_tools, utility_tools, dev_tools, awareness_tools, vision_tools
 from services.monitoring.system_awareness_v0_1.awareness import system_awareness
 from services.monitoring.proactive_engine_v0_1.engine import ProactiveEngine
+from services.monitoring.memory_extraction_v0_1.extractor import extract_facts_from_exchanges
 from interface.voice.chime import play_chime
 
 console = Console()
@@ -47,6 +85,8 @@ class VoiceRuntime:
         self._wakeword = WakeWordDetector(sensitivity=0.5)
         self._tool_matcher = self._build_tool_matcher()
         self._proactive_engine = ProactiveEngine(on_trigger_callback=self._on_proactive_trigger)
+        self._exchanges_since_last_extraction = 0
+        self._EXTRACTION_INTERVAL = 10
 
     def _build_tool_matcher(self) -> ToolMatcher:
         matcher = ToolMatcher()
@@ -118,6 +158,7 @@ class VoiceRuntime:
             play_chime()
             console.print("[bold yellow][Proactive] Chime played — waiting for response...[/bold yellow]")
             response_text = self._stt.listen()
+            _write_notification_for_gui(message)
             if response_text and response_text.strip():
                 console.print(f"[bold green]You (proactive):[/bold green] {response_text}")
                 console.print(f"[bold cyan]ATLAS:[/bold cyan] {message}")
@@ -128,6 +169,28 @@ class VoiceRuntime:
             console.print(f"[red]Proactive trigger error: {e}[/red]")
         finally:
             self._processing_lock.release()
+
+    def _maybe_run_extraction(self):
+        self._exchanges_since_last_extraction += 1
+        if self._exchanges_since_last_extraction >= self._EXTRACTION_INTERVAL:
+            self._exchanges_since_last_extraction = 0
+            self._run_extraction_async()
+
+    def _run_extraction_async(self):
+        def _do_extraction():
+            try:
+                if os.path.exists(_GUI_LOG_PATH):
+                    with open(_GUI_LOG_PATH, "r", encoding="utf-8-sig") as f:
+                        log = json.load(f)
+                    recent = log[-20:]
+                    result = extract_facts_from_exchanges(recent)
+                    if result["error"]:
+                        print(f"[MemoryExtraction] Error: {result['error']}")
+                    elif result["new_facts_count"] > 0:
+                        print(f"[MemoryExtraction] Learned {result['new_facts_count']} new fact(s).")
+            except Exception as e:
+                print(f"[MemoryExtraction] Background extraction error: {e}")
+        threading.Thread(target=_do_extraction, daemon=True).start()
 
     def _on_wake_word(self):
         if not self._processing_lock.acquire(blocking=False):
@@ -142,6 +205,7 @@ class VoiceRuntime:
                 return
 
             console.print(f"[bold green]You:[/bold green] {text}")
+            _log_for_gui("user", text)
 
             matches = self._tool_matcher.match_all(text)
             if matches:
@@ -157,6 +221,8 @@ class VoiceRuntime:
                     responses.append(response)
                 combined = " ".join(responses)
                 console.print(f"[bold cyan]ATLAS:[/bold cyan] {combined}")
+                _log_for_gui("atlas", combined)
+                self._maybe_run_extraction()
                 self._tts.speak(combined)
                 return
 
@@ -164,6 +230,8 @@ class VoiceRuntime:
             response = result.get("text", "I have no response.")
 
             console.print(f"[bold cyan]ATLAS:[/bold cyan] {response}")
+            _log_for_gui("atlas", response)
+            self._maybe_run_extraction()
             self._tts.speak(response)
 
         except Exception as e:

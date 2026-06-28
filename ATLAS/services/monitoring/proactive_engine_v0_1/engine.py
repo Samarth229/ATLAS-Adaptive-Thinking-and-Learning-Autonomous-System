@@ -66,16 +66,28 @@ class ProactiveEngine:
     def stop(self):
         self._running = False
 
+    def _is_muted(self) -> bool:
+        mute_path = r"E:\Requirements\atlas_proactive_muted_until.json"
+        if not os.path.exists(mute_path):
+            return False
+        try:
+            with open(mute_path, "r") as f:
+                data = json.load(f)
+            return time.time() < data.get("mute_until", 0)
+        except Exception:
+            return False
+
     def _loop(self):
         while self._running:
             try:
-                self._check_focus()
-                self._check_battery()
-                self._check_reminders()
-                self._check_thrashing()
-                self._check_late_night()
-                self._check_entertainment_session()
-                self._check_daily_summary()
+                if not self._is_muted():
+                    self._check_focus()
+                    self._check_battery()
+                    self._check_reminders()
+                    self._check_thrashing()
+                    self._check_late_night()
+                    self._check_entertainment_session()
+                    self._check_daily_summary()
             except Exception as e:
                 print(f"[ProactiveEngine] Check error: {e}")
             time.sleep(self.CHECK_INTERVAL)
@@ -116,7 +128,7 @@ class ProactiveEngine:
         if not os.path.exists(_REMINDERS_PATH):
             return
         try:
-            with open(_REMINDERS_PATH, "r", encoding="utf-8") as f:
+            with open(_REMINDERS_PATH, "r", encoding="utf-8-sig") as f:
                 reminders = json.load(f)
         except Exception:
             return

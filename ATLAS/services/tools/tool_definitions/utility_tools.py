@@ -123,7 +123,7 @@ def make_weather_handler(stt, tts):
 def _load_reminders():
     if not os.path.exists(_REMINDERS_PATH):
         return []
-    with open(_REMINDERS_PATH, "r", encoding="utf-8") as f:
+    with open(_REMINDERS_PATH, "r", encoding="utf-8-sig") as f:
         return json.load(f)
 
 

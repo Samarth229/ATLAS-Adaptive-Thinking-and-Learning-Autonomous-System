@@ -17,6 +17,9 @@ def main():
             raise SystemExit(0)
         signal.signal(signal.SIGINT, _shutdown)
         runtime.start()
+    elif mode == "gui":
+        from interface.gui.flask_server import run_server
+        run_server()
     else:
         from services.daemon.runtime_v0_5.runtime import start_runtime
         start_runtime(system_context["identity"])
