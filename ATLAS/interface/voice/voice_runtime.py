@@ -4,13 +4,20 @@ import time
 import threading
 import json
 import tempfile
+from pathlib import Path
+from rich.console import Console
+
+BASE_DIR = Path(__file__).resolve().parents[2]
+_GUI_DATA_DIR = BASE_DIR / "memory" / "structured"
+_GUI_DATA_DIR.mkdir(parents=True, exist_ok=True)
+
 
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), "..", ".."))
 
-from rich.console import Console
 
-_GUI_LOG_PATH = r"E:\Requirements\atlas_gui_conversation_log.json"
-_GUI_NOTIFICATION_PATH = r"E:\Requirements\atlas_gui_last_notification.json"
+
+_GUI_LOG_PATH = _GUI_DATA_DIR / "atlas_gui_conversation_log.json"
+_GUI_NOTIFICATION_PATH = _GUI_DATA_DIR / "atlas_gui_last_notification.json"
 
 
 def _atomic_write_json(path: str, data):

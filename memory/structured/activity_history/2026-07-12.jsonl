@@ -1,0 +1,257 @@
+{"process": "electron.exe", "title": "ATLAS", "start": "2026-07-12T06:28:59.982253", "end": "2026-07-12T06:29:01.982947", "duration_seconds": 2.0}
+{"process": "WindowsTerminal.exe", "title": "E:\\CODE\\ATLAS\\.venv\\Scripts\\python.exe", "start": "2026-07-12T06:29:01.982947", "end": "2026-07-12T06:29:28.112958", "duration_seconds": 26.1}
+{"process": "brave.exe", "title": "127.0.0.1 - Brave", "start": "2026-07-12T06:36:01.027517", "end": "2026-07-12T06:36:09.053563", "duration_seconds": 8.0}
+{"process": "WindowsTerminal.exe", "title": "E:\\CODE\\ATLAS\\.venv\\Scripts\\python.exe", "start": "2026-07-12T06:36:09.053563", "end": "2026-07-12T06:36:23.080043", "duration_seconds": 14.0}
+{"process": "brave.exe", "title": "127.0.0.1 - Brave", "start": "2026-07-12T06:36:23.080043", "end": "2026-07-12T06:36:31.084473", "duration_seconds": 8.0}
+{"process": "SnippingTool.exe", "title": "Snipping Tool Overlay", "start": "2026-07-12T06:36:31.084473", "end": "2026-07-12T06:36:33.087702", "duration_seconds": 2.0}
+{"process": "brave.exe", "title": "GUI Data Not Displaying - Brave", "start": "2026-07-12T06:36:33.087702", "end": "2026-07-12T06:36:39.090849", "duration_seconds": 6.0}
+{"process": "WindowsTerminal.exe", "title": "E:\\CODE\\ATLAS\\.venv\\Scripts\\python.exe", "start": "2026-07-12T06:36:39.090849", "end": "2026-07-12T06:36:41.093189", "duration_seconds": 2.0}
+{"process": "WindowsTerminal.exe", "title": "E:\\CODE\\ATLAS\\.venv\\Scripts\\python.exe", "start": "2026-07-12T06:40:41.799006", "end": "2026-07-12T06:40:43.801440", "duration_seconds": 2.0}
+{"process": "electron.exe", "title": "ATLAS", "start": "2026-07-12T06:40:49.535234", "end": "2026-07-12T06:41:01.661365", "duration_seconds": 12.1}
+{"process": "electron.exe", "title": "ATLAS", "start": "2026-07-12T06:40:43.801440", "end": "2026-07-12T06:41:01.812291", "duration_seconds": 18.0}
+{"process": "WindowsTerminal.exe", "title": "E:\\CODE\\ATLAS\\.venv\\Scripts\\python.exe", "start": "2026-07-12T06:41:01.812291", "end": "2026-07-12T06:41:19.820332", "duration_seconds": 18.0}
+{"process": "WindowsTerminal.exe", "title": "E:\\CODE\\ATLAS\\.venv\\Scripts\\python.exe", "start": "2026-07-12T06:41:01.661365", "end": "2026-07-12T06:41:21.672137", "duration_seconds": 20.0}
+{"process": "ShellHost.exe", "title": "Quick settings", "start": "2026-07-12T06:41:21.672137", "end": "2026-07-12T06:41:27.676894", "duration_seconds": 6.0}
+{"process": "ShellHost.exe", "title": "Quick settings", "start": "2026-07-12T06:41:21.824110", "end": "2026-07-12T06:41:27.826228", "duration_seconds": 6.0}
+{"process": "WindowsTerminal.exe", "title": "E:\\CODE\\ATLAS\\.venv\\Scripts\\python.exe", "start": "2026-07-12T06:41:27.676894", "end": "2026-07-12T06:41:29.679106", "duration_seconds": 2.0}
+{"process": "WindowsTerminal.exe", "title": "E:\\CODE\\ATLAS\\.venv\\Scripts\\python.exe", "start": "2026-07-12T06:41:27.826228", "end": "2026-07-12T06:41:29.827865", "duration_seconds": 2.0}
+{"process": "Code.exe", "title": "launch_atlas.py - Untitled (Workspace) - Visual Studio Code", "start": "2026-07-12T06:41:29.827865", "end": "2026-07-12T06:41:31.829380", "duration_seconds": 2.0}
+{"process": "Code.exe", "title": "launch_atlas.py - Untitled (Workspace) - Visual Studio Code", "start": "2026-07-12T06:41:29.679106", "end": "2026-07-12T06:41:33.680677", "duration_seconds": 4.0}
+{"process": "electron.exe", "title": "ATLAS", "start": "2026-07-12T06:41:33.680677", "end": "2026-07-12T06:41:43.684935", "duration_seconds": 10.0}
+{"process": "electron.exe", "title": "ATLAS", "start": "2026-07-12T06:41:31.829380", "end": "2026-07-12T06:41:43.847842", "duration_seconds": 12.0}
+{"process": "WindowsTerminal.exe", "title": "E:\\CODE\\ATLAS\\.venv\\Scripts\\python.exe", "start": "2026-07-12T11:50:25.975358", "end": "2026-07-12T11:50:27.976715", "duration_seconds": 2.0}
+{"process": "electron.exe", "title": "ATLAS", "start": "2026-07-12T11:50:27.976715", "end": "2026-07-12T11:50:45.988163", "duration_seconds": 18.0}
+{"process": "electron.exe", "title": "ATLAS", "start": "2026-07-12T11:50:35.259576", "end": "2026-07-12T11:50:47.276406", "duration_seconds": 12.0}
+{"process": "WindowsTerminal.exe", "title": "E:\\CODE\\ATLAS\\.venv\\Scripts\\python.exe", "start": "2026-07-12T11:50:47.276406", "end": "2026-07-12T11:51:23.323210", "duration_seconds": 36.0}
+{"process": "WindowsTerminal.exe", "title": "E:\\CODE\\ATLAS\\.venv\\Scripts\\python.exe", "start": "2026-07-12T11:50:45.988163", "end": "2026-07-12T11:51:24.007378", "duration_seconds": 38.0}
+{"process": "electron.exe", "title": "ATLAS", "start": "2026-07-12T11:51:23.323210", "end": "2026-07-12T11:51:41.335418", "duration_seconds": 18.0}
+{"process": "electron.exe", "title": "ATLAS", "start": "2026-07-12T11:51:24.007378", "end": "2026-07-12T11:51:42.016279", "duration_seconds": 18.0}
+{"process": "Spotify.exe", "title": "Spotify", "start": "2026-07-12T11:51:41.335418", "end": "2026-07-12T11:51:43.337211", "duration_seconds": 2.0}
+{"process": "Spotify.exe", "title": "Spotify", "start": "2026-07-12T11:51:42.016279", "end": "2026-07-12T11:51:44.018229", "duration_seconds": 2.0}
+{"process": "Spotify.exe", "title": "Spotify Premium", "start": "2026-07-12T11:51:43.337211", "end": "2026-07-12T11:51:55.347617", "duration_seconds": 12.0}
+{"process": "Spotify.exe", "title": "Spotify Premium", "start": "2026-07-12T11:51:44.018229", "end": "2026-07-12T11:51:56.029215", "duration_seconds": 12.0}
+{"process": "WindowsTerminal.exe", "title": "E:\\CODE\\ATLAS\\.venv\\Scripts\\python.exe", "start": "2026-07-12T11:52:23.933701", "end": "2026-07-12T11:52:25.935824", "duration_seconds": 2.0}
+{"process": "WindowsTerminal.exe", "title": "E:\\CODE\\ATLAS\\.venv\\Scripts\\python.exe", "start": "2026-07-12T11:58:58.335082", "end": "2026-07-12T11:59:00.335644", "duration_seconds": 2.0}
+{"process": "electron.exe", "title": "ATLAS", "start": "2026-07-12T11:59:00.335644", "end": "2026-07-12T11:59:10.342345", "duration_seconds": 10.0}
+{"process": "electron.exe", "title": "ATLAS", "start": "2026-07-12T11:59:05.229235", "end": "2026-07-12T11:59:11.248383", "duration_seconds": 6.0}
+{"process": "WindowsTerminal.exe", "title": "E:\\CODE\\ATLAS\\.venv\\Scripts\\python.exe", "start": "2026-07-12T11:59:11.248383", "end": "2026-07-12T11:59:13.266728", "duration_seconds": 2.0}
+{"process": "WindowsTerminal.exe", "title": "E:\\CODE\\ATLAS\\.venv\\Scripts\\python.exe", "start": "2026-07-12T11:59:10.342345", "end": "2026-07-12T11:59:14.345924", "duration_seconds": 4.0}
+{"process": "Code.exe", "title": "collector.py - Untitled (Workspace) - Visual Studio Code", "start": "2026-07-12T11:59:14.345924", "end": "2026-07-12T11:59:22.350544", "duration_seconds": 8.0}
+{"process": "Code.exe", "title": "collector.py - Untitled (Workspace) - Visual Studio Code", "start": "2026-07-12T11:59:13.266728", "end": "2026-07-12T11:59:23.292928", "duration_seconds": 10.0}
+{"process": "WindowsTerminal.exe", "title": "E:\\CODE\\ATLAS\\.venv\\Scripts\\python.exe", "start": "2026-07-12T11:59:26.352654", "end": "2026-07-12T11:59:58.367644", "duration_seconds": 32.0}
+{"process": "WindowsTerminal.exe", "title": "E:\\CODE\\ATLAS\\.venv\\Scripts\\python.exe", "start": "2026-07-12T12:00:35.628417", "end": "2026-07-12T12:00:37.629393", "duration_seconds": 2.0}
+{"process": "electron.exe", "title": "ATLAS", "start": "2026-07-12T12:00:37.629393", "end": "2026-07-12T12:00:41.631878", "duration_seconds": 4.0}
+{"process": "WindowsTerminal.exe", "title": "E:\\CODE\\ATLAS\\.venv\\Scripts\\python.exe", "start": "2026-07-12T12:00:42.103045", "end": "2026-07-12T12:01:22.185047", "duration_seconds": 40.1}
+{"process": "Code.exe", "title": "stt_engine.py - Untitled (Workspace) - Visual Studio Code", "start": "2026-07-12T12:13:52.340446", "end": "2026-07-12T12:14:18.393933", "duration_seconds": 26.1}
+{"process": "ShellHost.exe", "title": "Quick settings", "start": "2026-07-12T12:14:18.393933", "end": "2026-07-12T12:14:22.396821", "duration_seconds": 4.0}
+{"process": "Code.exe", "title": "stt_engine.py - Untitled (Workspace) - Visual Studio Code", "start": "2026-07-12T12:14:22.396821", "end": "2026-07-12T12:16:54.480561", "duration_seconds": 152.1}
+{"process": "ShellHost.exe", "title": "Quick settings", "start": "2026-07-12T12:16:54.480561", "end": "2026-07-12T12:16:58.483006", "duration_seconds": 4.0}
+{"process": "Code.exe", "title": "stt_engine.py - Untitled (Workspace) - Visual Studio Code", "start": "2026-07-12T12:16:58.483006", "end": "2026-07-12T12:18:40.542333", "duration_seconds": 102.1}
+{"process": "SearchHost.exe", "title": "Search", "start": "2026-07-12T12:18:40.542333", "end": "2026-07-12T12:18:42.543338", "duration_seconds": 2.0}
+{"process": "ollama app.exe", "title": "Ollama", "start": "2026-07-12T12:18:44.545091", "end": "2026-07-12T12:18:48.547981", "duration_seconds": 4.0}
+{"process": "WindowsTerminal.exe", "title": "E:\\CODE\\ATLAS\\.venv\\Scripts\\python.exe", "start": "2026-07-12T12:22:28.324378", "end": "2026-07-12T12:22:30.325699", "duration_seconds": 2.0}
+{"process": "electron.exe", "title": "ATLAS", "start": "2026-07-12T12:22:30.325699", "end": "2026-07-12T12:22:56.338000", "duration_seconds": 26.0}
+{"process": "electron.exe", "title": "ATLAS", "start": "2026-07-12T12:22:36.491941", "end": "2026-07-12T12:22:56.511483", "duration_seconds": 20.0}
+{"process": "WindowsTerminal.exe", "title": "E:\\CODE\\ATLAS\\.venv\\Scripts\\python.exe", "start": "2026-07-12T12:22:56.338000", "end": "2026-07-12T12:23:52.372520", "duration_seconds": 56.0}
+{"process": "WindowsTerminal.exe", "title": "E:\\CODE\\ATLAS\\.venv\\Scripts\\python.exe", "start": "2026-07-12T12:22:56.511483", "end": "2026-07-12T12:23:52.542366", "duration_seconds": 56.0}
+{"process": "Code.exe", "title": "launch_atlas.py - Untitled (Workspace) - Visual Studio Code", "start": "2026-07-12T12:23:52.372520", "end": "2026-07-12T12:23:56.382219", "duration_seconds": 4.0}
+{"process": "Code.exe", "title": "launch_atlas.py - Untitled (Workspace) - Visual Studio Code", "start": "2026-07-12T12:23:52.542366", "end": "2026-07-12T12:23:56.546149", "duration_seconds": 4.0}
+{"process": "electron.exe", "title": "ATLAS", "start": "2026-07-12T12:23:56.382219", "end": "2026-07-12T12:24:02.389241", "duration_seconds": 6.0}
+{"process": "electron.exe", "title": "ATLAS", "start": "2026-07-12T12:23:56.546149", "end": "2026-07-12T12:24:02.556742", "duration_seconds": 6.0}
+{"process": "WindowsTerminal.exe", "title": "E:\\CODE\\ATLAS\\.venv\\Scripts\\python.exe", "start": "2026-07-12T12:24:02.389241", "end": "2026-07-12T12:24:18.406950", "duration_seconds": 16.0}
+{"process": "WindowsTerminal.exe", "title": "E:\\CODE\\ATLAS\\.venv\\Scripts\\python.exe", "start": "2026-07-12T12:24:02.556742", "end": "2026-07-12T12:24:18.578028", "duration_seconds": 16.0}
+{"process": "Code.exe", "title": "launch_atlas.py - Untitled (Workspace) - Visual Studio Code", "start": "2026-07-12T12:24:18.406950", "end": "2026-07-12T12:24:30.427834", "duration_seconds": 12.0}
+{"process": "Code.exe", "title": "launch_atlas.py - Untitled (Workspace) - Visual Studio Code", "start": "2026-07-12T12:24:18.578028", "end": "2026-07-12T12:24:30.589054", "duration_seconds": 12.0}
+{"process": "Code.exe", "title": "ollama_adapter_v0_1.py - Untitled (Workspace) - Visual Studio Code", "start": "2026-07-12T12:24:30.589054", "end": "2026-07-12T12:24:36.596895", "duration_seconds": 6.0}
+{"process": "Code.exe", "title": "ollama_adapter_v0_1.py - Untitled (Workspace) - Visual Studio Code", "start": "2026-07-12T12:24:30.427834", "end": "2026-07-12T12:24:38.436011", "duration_seconds": 8.0}
+{"process": "Code.exe", "title": "ollama_adapter_v0_1.py - Untitled (Workspace) - Visual Studio Code", "start": "2026-07-12T12:24:40.440741", "end": "2026-07-12T12:24:48.448332", "duration_seconds": 8.0}
+{"process": "Code.exe", "title": "ollama_adapter_v0_1.py - Untitled (Workspace) - Visual Studio Code", "start": "2026-07-12T12:24:40.602309", "end": "2026-07-12T12:24:48.613292", "duration_seconds": 8.0}
+{"process": "electron.exe", "title": "ATLAS", "start": "2026-07-12T12:24:48.448332", "end": "2026-07-12T12:24:50.451450", "duration_seconds": 2.0}
+{"process": "electron.exe", "title": "ATLAS", "start": "2026-07-12T12:24:48.613292", "end": "2026-07-12T12:24:50.615656", "duration_seconds": 2.0}
+{"process": "WindowsTerminal.exe", "title": "E:\\CODE\\ATLAS\\.venv\\Scripts\\python.exe", "start": "2026-07-12T12:24:50.451450", "end": "2026-07-12T12:26:54.563122", "duration_seconds": 124.1}
+{"process": "WindowsTerminal.exe", "title": "E:\\CODE\\ATLAS\\.venv\\Scripts\\python.exe", "start": "2026-07-12T12:24:50.615656", "end": "2026-07-12T12:26:54.705576", "duration_seconds": 124.1}
+{"process": "Code.exe", "title": "ollama_adapter_v0_1.py - Untitled (Workspace) - Visual Studio Code", "start": "2026-07-12T12:26:54.563122", "end": "2026-07-12T12:26:56.569127", "duration_seconds": 2.0}
+{"process": "Code.exe", "title": "ollama_adapter_v0_1.py - Untitled (Workspace) - Visual Studio Code", "start": "2026-07-12T12:26:54.705576", "end": "2026-07-12T12:26:56.707340", "duration_seconds": 2.0}
+{"process": "electron.exe", "title": "ATLAS", "start": "2026-07-12T12:26:56.569127", "end": "2026-07-12T12:26:58.576806", "duration_seconds": 2.0}
+{"process": "electron.exe", "title": "ATLAS", "start": "2026-07-12T12:26:56.707340", "end": "2026-07-12T12:26:58.712963", "duration_seconds": 2.0}
+{"process": "WindowsTerminal.exe", "title": "E:\\CODE\\ATLAS\\.venv\\Scripts\\python.exe", "start": "2026-07-12T12:26:58.576806", "end": "2026-07-12T12:27:04.585947", "duration_seconds": 6.0}
+{"process": "WindowsTerminal.exe", "title": "E:\\CODE\\ATLAS\\.venv\\Scripts\\python.exe", "start": "2026-07-12T12:26:58.712963", "end": "2026-07-12T12:27:04.718360", "duration_seconds": 6.0}
+{"process": "Notepad.exe", "title": "*NEED TO KNOW - Notepad", "start": "2026-07-12T12:27:04.585947", "end": "2026-07-12T12:27:38.622504", "duration_seconds": 34.0}
+{"process": "Notepad.exe", "title": "*NEED TO KNOW - Notepad", "start": "2026-07-12T12:27:04.718360", "end": "2026-07-12T12:27:38.746264", "duration_seconds": 34.0}
+{"process": "WindowsTerminal.exe", "title": "E:\\CODE\\ATLAS\\.venv\\Scripts\\python.exe", "start": "2026-07-12T12:27:38.622504", "end": "2026-07-12T12:28:00.645559", "duration_seconds": 22.0}
+{"process": "WindowsTerminal.exe", "title": "E:\\CODE\\ATLAS\\.venv\\Scripts\\python.exe", "start": "2026-07-12T12:27:38.746264", "end": "2026-07-12T12:28:00.766694", "duration_seconds": 22.0}
+{"process": "Code.exe", "title": "\u25cf ollama_adapter_v0_1.py - Untitled (Workspace) - Visual Studio Code", "start": "2026-07-12T12:37:04.953033", "end": "2026-07-12T12:37:06.956060", "duration_seconds": 2.0}
+{"process": "electron.exe", "title": "ATLAS", "start": "2026-07-12T12:37:06.956060", "end": "2026-07-12T12:37:10.966268", "duration_seconds": 4.0}
+{"process": "electron.exe", "title": "ATLAS", "start": "2026-07-12T12:37:12.969057", "end": "2026-07-12T12:38:01.013466", "duration_seconds": 48.0}
+{"process": "electron.exe", "title": "ATLAS", "start": "2026-07-12T12:37:14.279008", "end": "2026-07-12T12:38:02.325228", "duration_seconds": 48.0}
+{"process": "explorer.exe", "title": "System tray overflow window.", "start": "2026-07-12T12:38:02.325228", "end": "2026-07-12T12:38:04.326791", "duration_seconds": 2.0}
+{"process": "explorer.exe", "title": "System tray overflow window.", "start": "2026-07-12T12:38:01.013466", "end": "2026-07-12T12:38:05.016403", "duration_seconds": 4.0}
+{"process": "SearchHost.exe", "title": "Search", "start": "2026-07-12T12:38:04.326791", "end": "2026-07-12T12:38:06.328241", "duration_seconds": 2.0}
+{"process": "SearchHost.exe", "title": "Search", "start": "2026-07-12T12:38:05.016403", "end": "2026-07-12T12:38:07.022057", "duration_seconds": 2.0}
+{"process": "ollama app.exe", "title": "Ollama", "start": "2026-07-12T12:38:07.022057", "end": "2026-07-12T12:38:09.028312", "duration_seconds": 2.0}
+{"process": "electron.exe", "title": "ATLAS", "start": "2026-07-12T12:38:08.331513", "end": "2026-07-12T12:38:14.335798", "duration_seconds": 6.0}
+{"process": "electron.exe", "title": "ATLAS", "start": "2026-07-12T12:38:11.032140", "end": "2026-07-12T12:38:15.034515", "duration_seconds": 4.0}
+{"process": "brave.exe", "title": "GUI Data Not Displaying - Brave", "start": "2026-07-12T12:38:15.034515", "end": "2026-07-12T12:38:29.044382", "duration_seconds": 14.0}
+{"process": "brave.exe", "title": "GUI Data Not Displaying - Brave", "start": "2026-07-12T12:38:14.335798", "end": "2026-07-12T12:38:30.345216", "duration_seconds": 16.0}
+{"process": "electron.exe", "title": "ATLAS", "start": "2026-07-12T12:38:29.044382", "end": "2026-07-12T12:38:31.046011", "duration_seconds": 2.0}
+{"process": "Code.exe", "title": "ollama_adapter_v0_1.py - Untitled (Workspace) - Visual Studio Code", "start": "2026-07-12T12:38:31.046011", "end": "2026-07-12T12:38:33.047299", "duration_seconds": 2.0}
+{"process": "Code.exe", "title": "ollama_adapter_v0_1.py - Untitled (Workspace) - Visual Studio Code", "start": "2026-07-12T12:38:30.345216", "end": "2026-07-12T12:38:34.352646", "duration_seconds": 4.0}
+{"process": "Code.exe", "title": "\u25cf ollama_adapter_v0_1.py - Untitled (Workspace) - Visual Studio Code", "start": "2026-07-12T12:38:33.047299", "end": "2026-07-12T12:38:39.053768", "duration_seconds": 6.0}
+{"process": "Code.exe", "title": "\u25cf ollama_adapter_v0_1.py - Untitled (Workspace) - Visual Studio Code", "start": "2026-07-12T12:38:34.352646", "end": "2026-07-12T12:38:40.357492", "duration_seconds": 6.0}
+{"process": "Code.exe", "title": "ollama_adapter_v0_1.py - Untitled (Workspace) - Visual Studio Code", "start": "2026-07-12T12:38:39.053768", "end": "2026-07-12T12:38:47.060042", "duration_seconds": 8.0}
+{"process": "Code.exe", "title": "ollama_adapter_v0_1.py - Untitled (Workspace) - Visual Studio Code", "start": "2026-07-12T12:38:40.357492", "end": "2026-07-12T12:38:48.361815", "duration_seconds": 8.0}
+{"process": "ollama app.exe", "title": "Ollama", "start": "2026-07-12T12:38:47.060042", "end": "2026-07-12T12:38:49.061213", "duration_seconds": 2.0}
+{"process": "electron.exe", "title": "ATLAS", "start": "2026-07-12T12:38:48.361815", "end": "2026-07-12T12:38:56.366314", "duration_seconds": 8.0}
+{"process": "electron.exe", "title": "ATLAS", "start": "2026-07-12T12:38:49.061213", "end": "2026-07-12T12:38:57.066384", "duration_seconds": 8.0}
+{"process": "WindowsTerminal.exe", "title": "E:\\CODE\\ATLAS\\.venv\\Scripts\\python.exe", "start": "2026-07-12T12:38:57.066384", "end": "2026-07-12T12:38:59.068674", "duration_seconds": 2.0}
+{"process": "WindowsTerminal.exe", "title": "E:\\CODE\\ATLAS\\.venv\\Scripts\\python.exe", "start": "2026-07-12T12:39:12.565385", "end": "2026-07-12T12:39:14.569127", "duration_seconds": 2.0}
+{"process": "electron.exe", "title": "ATLAS", "start": "2026-07-12T12:39:14.569127", "end": "2026-07-12T12:40:28.627463", "duration_seconds": 74.1}
+{"process": "electron.exe", "title": "ATLAS", "start": "2026-07-12T12:39:19.352047", "end": "2026-07-12T12:40:29.518454", "duration_seconds": 70.2}
+{"process": "ShellExperienceHost.exe", "title": "Windows Shell Experience Host", "start": "2026-07-12T12:40:29.518454", "end": "2026-07-12T12:40:31.520581", "duration_seconds": 2.0}
+{"process": "WindowsTerminal.exe", "title": "E:\\CODE\\ATLAS\\.venv\\Scripts\\python.exe", "start": "2026-07-12T12:41:18.662394", "end": "2026-07-12T12:41:20.663153", "duration_seconds": 2.0}
+{"process": "WindowsTerminal.exe", "title": "E:\\CODE\\ATLAS\\.venv\\Scripts\\python.exe", "start": "2026-07-12T12:41:27.833416", "end": "2026-07-12T12:41:29.836505", "duration_seconds": 2.0}
+{"process": "electron.exe", "title": "ATLAS", "start": "2026-07-12T12:41:29.836505", "end": "2026-07-12T12:41:33.839835", "duration_seconds": 4.0}
+{"process": "WindowsTerminal.exe", "title": "E:\\CODE\\ATLAS\\.venv\\Scripts\\python.exe", "start": "2026-07-12T12:41:33.839835", "end": "2026-07-12T12:43:41.913965", "duration_seconds": 128.1}
+{"process": "WindowsTerminal.exe", "title": "E:\\CODE\\ATLAS\\.venv\\Scripts\\python.exe", "start": "2026-07-12T12:41:36.272465", "end": "2026-07-12T12:43:42.364784", "duration_seconds": 126.1}
+{"process": "electron.exe", "title": "ATLAS", "start": "2026-07-12T12:43:42.364784", "end": "2026-07-12T12:43:48.368056", "duration_seconds": 6.0}
+{"process": "electron.exe", "title": "ATLAS", "start": "2026-07-12T12:43:41.913965", "end": "2026-07-12T12:43:49.917857", "duration_seconds": 8.0}
+{"process": "WindowsTerminal.exe", "title": "E:\\CODE\\ATLAS\\.venv\\Scripts\\python.exe", "start": "2026-07-12T12:43:48.368056", "end": "2026-07-12T12:43:56.377302", "duration_seconds": 8.0}
+{"process": "WindowsTerminal.exe", "title": "E:\\CODE\\ATLAS\\.venv\\Scripts\\python.exe", "start": "2026-07-12T12:43:49.917857", "end": "2026-07-12T12:43:57.925058", "duration_seconds": 8.0}
+{"process": "WindowsTerminal.exe", "title": "E:\\CODE\\ATLAS\\.venv\\Scripts\\python.exe", "start": "2026-07-12T12:52:02.815046", "end": "2026-07-12T12:52:04.820060", "duration_seconds": 2.0}
+{"process": "WindowsTerminal.exe", "title": "E:\\CODE\\ATLAS\\.venv\\Scripts\\python.exe", "start": "2026-07-12T13:23:54.147046", "end": "2026-07-12T13:23:56.150076", "duration_seconds": 2.0}
+{"process": "electron.exe", "title": "ATLAS", "start": "2026-07-12T13:23:56.150076", "end": "2026-07-12T13:24:20.167282", "duration_seconds": 24.0}
+{"process": "WindowsTerminal.exe", "title": "E:\\CODE\\ATLAS\\.venv\\Scripts\\python.exe", "start": "2026-07-12T15:27:59.720249", "end": "2026-07-12T15:28:01.722076", "duration_seconds": 2.0}
+{"process": "electron.exe", "title": "ATLAS", "start": "2026-07-12T15:28:01.722076", "end": "2026-07-12T15:28:09.727031", "duration_seconds": 8.0}
+{"process": "WindowsTerminal.exe", "title": "E:\\CODE\\ATLAS\\.venv\\Scripts\\python.exe", "start": "2026-07-12T15:28:09.727031", "end": "2026-07-12T15:28:19.732735", "duration_seconds": 10.0}
+{"process": "ShellHost.exe", "title": "Quick settings", "start": "2026-07-12T15:28:19.732735", "end": "2026-07-12T15:28:21.735067", "duration_seconds": 2.0}
+{"process": "WindowsTerminal.exe", "title": "E:\\CODE\\ATLAS\\.venv\\Scripts\\python.exe", "start": "2026-07-12T15:28:21.735067", "end": "2026-07-12T15:28:25.737170", "duration_seconds": 4.0}
+{"process": "electron.exe", "title": "ATLAS", "start": "2026-07-12T15:28:28.614221", "end": "2026-07-12T15:28:44.630800", "duration_seconds": 16.0}
+{"process": "electron.exe", "title": "ATLAS", "start": "2026-07-12T15:28:25.737170", "end": "2026-07-12T15:28:45.746532", "duration_seconds": 20.0}
+{"process": "WindowsTerminal.exe", "title": "E:\\CODE\\ATLAS\\.venv\\Scripts\\python.exe", "start": "2026-07-12T15:28:44.630800", "end": "2026-07-12T15:29:24.657006", "duration_seconds": 40.0}
+{"process": "WindowsTerminal.exe", "title": "E:\\CODE\\ATLAS\\.venv\\Scripts\\python.exe", "start": "2026-07-12T15:28:45.746532", "end": "2026-07-12T15:29:25.767346", "duration_seconds": 40.0}
+{"process": "electron.exe", "title": "ATLAS", "start": "2026-07-12T15:29:25.767346", "end": "2026-07-12T15:29:29.770099", "duration_seconds": 4.0}
+{"process": "electron.exe", "title": "ATLAS", "start": "2026-07-12T15:29:24.657006", "end": "2026-07-12T15:29:30.660980", "duration_seconds": 6.0}
+{"process": "Code.exe", "title": "launch_atlas.py - Untitled (Workspace) - Visual Studio Code", "start": "2026-07-12T15:29:29.770099", "end": "2026-07-12T15:29:43.785757", "duration_seconds": 14.0}
+{"process": "Code.exe", "title": "launch_atlas.py - Untitled (Workspace) - Visual Studio Code", "start": "2026-07-12T15:29:30.660980", "end": "2026-07-12T15:29:44.671077", "duration_seconds": 14.0}
+{"process": "WindowsTerminal.exe", "title": "E:\\CODE\\ATLAS\\.venv\\Scripts\\python.exe", "start": "2026-07-12T15:29:44.671077", "end": "2026-07-12T15:30:14.686315", "duration_seconds": 30.0}
+{"process": "WindowsTerminal.exe", "title": "E:\\CODE\\ATLAS\\.venv\\Scripts\\python.exe", "start": "2026-07-12T15:29:45.787700", "end": "2026-07-12T15:30:15.804826", "duration_seconds": 30.0}
+{"process": "electron.exe", "title": "ATLAS", "start": "2026-07-12T15:30:15.804826", "end": "2026-07-12T15:30:19.807107", "duration_seconds": 4.0}
+{"process": "electron.exe", "title": "ATLAS", "start": "2026-07-12T15:30:16.688063", "end": "2026-07-12T15:30:20.689920", "duration_seconds": 4.0}
+{"process": "WindowsTerminal.exe", "title": "E:\\CODE\\ATLAS\\.venv\\Scripts\\python.exe", "start": "2026-07-12T15:30:19.807107", "end": "2026-07-12T15:30:31.813943", "duration_seconds": 12.0}
+{"process": "WindowsTerminal.exe", "title": "E:\\CODE\\ATLAS\\.venv\\Scripts\\python.exe", "start": "2026-07-12T15:30:20.689920", "end": "2026-07-12T15:30:32.697853", "duration_seconds": 12.0}
+{"process": "Code.exe", "title": "Visual Studio Code", "start": "2026-07-12T15:30:31.813943", "end": "2026-07-12T15:30:33.819135", "duration_seconds": 2.0}
+{"process": "Code.exe", "title": "Visual Studio Code", "start": "2026-07-12T15:30:32.697853", "end": "2026-07-12T15:30:34.699540", "duration_seconds": 2.0}
+{"process": "Code.exe", "title": "Welcome - Visual Studio Code", "start": "2026-07-12T15:30:33.819135", "end": "2026-07-12T15:30:47.827451", "duration_seconds": 14.0}
+{"process": "Code.exe", "title": "Welcome - Visual Studio Code", "start": "2026-07-12T15:30:34.699540", "end": "2026-07-12T15:30:48.709362", "duration_seconds": 14.0}
+{"process": "WindowsTerminal.exe", "title": "E:\\CODE\\ATLAS\\.venv\\Scripts\\python.exe", "start": "2026-07-12T15:30:48.709362", "end": "2026-07-12T15:31:34.733243", "duration_seconds": 46.0}
+{"process": "WindowsTerminal.exe", "title": "E:\\CODE\\ATLAS\\.venv\\Scripts\\python.exe", "start": "2026-07-12T15:30:47.827451", "end": "2026-07-12T15:31:35.865866", "duration_seconds": 48.0}
+{"process": "explorer.exe", "title": "System tray overflow window.", "start": "2026-07-12T15:31:34.733243", "end": "2026-07-12T15:31:36.734373", "duration_seconds": 2.0}
+{"process": "SearchHost.exe", "title": "Search", "start": "2026-07-12T15:31:35.865866", "end": "2026-07-12T15:31:37.868307", "duration_seconds": 2.0}
+{"process": "SearchHost.exe", "title": "Search", "start": "2026-07-12T15:31:36.734373", "end": "2026-07-12T15:31:38.735656", "duration_seconds": 2.0}
+{"process": "ollama app.exe", "title": "Ollama", "start": "2026-07-12T15:31:39.872274", "end": "2026-07-12T15:31:41.880515", "duration_seconds": 2.0}
+{"process": "ollama app.exe", "title": "Ollama", "start": "2026-07-12T15:31:38.735656", "end": "2026-07-12T15:31:42.739238", "duration_seconds": 4.0}
+{"process": "WindowsTerminal.exe", "title": "E:\\CODE\\ATLAS\\.venv\\Scripts\\python.exe", "start": "2026-07-12T15:31:42.739238", "end": "2026-07-12T15:31:44.740937", "duration_seconds": 2.0}
+{"process": "WindowsTerminal.exe", "title": "E:\\CODE\\ATLAS\\.venv\\Scripts\\python.exe", "start": "2026-07-12T15:31:57.024234", "end": "2026-07-12T15:31:59.028795", "duration_seconds": 2.0}
+{"process": "electron.exe", "title": "ATLAS", "start": "2026-07-12T15:32:03.975526", "end": "2026-07-12T15:32:08.001514", "duration_seconds": 4.0}
+{"process": "electron.exe", "title": "ATLAS", "start": "2026-07-12T15:31:59.028795", "end": "2026-07-12T15:32:09.034069", "duration_seconds": 10.0}
+{"process": "WindowsTerminal.exe", "title": "E:\\CODE\\ATLAS\\.venv\\Scripts\\python.exe", "start": "2026-07-12T15:32:08.001514", "end": "2026-07-12T15:33:22.094528", "duration_seconds": 74.1}
+{"process": "WindowsTerminal.exe", "title": "E:\\CODE\\ATLAS\\.venv\\Scripts\\python.exe", "start": "2026-07-12T15:33:28.262009", "end": "2026-07-12T15:33:30.266342", "duration_seconds": 2.0}
+{"process": "Code.exe", "title": "launch_atlas.py - Untitled (Workspace) - Visual Studio Code", "start": "2026-07-12T15:33:30.266342", "end": "2026-07-12T15:33:34.269488", "duration_seconds": 4.0}
+{"process": "electron.exe", "title": "ATLAS", "start": "2026-07-12T15:33:34.269488", "end": "2026-07-12T15:33:36.273554", "duration_seconds": 2.0}
+{"process": "electron.exe", "title": "ATLAS", "start": "2026-07-12T15:33:39.189130", "end": "2026-07-12T15:33:41.190097", "duration_seconds": 2.0}
+{"process": "WindowsTerminal.exe", "title": "E:\\CODE\\ATLAS\\.venv\\Scripts\\python.exe", "start": "2026-07-12T15:33:41.190097", "end": "2026-07-12T15:34:45.256092", "duration_seconds": 64.1}
+{"process": "WindowsTerminal.exe", "title": "E:\\CODE\\ATLAS\\.venv\\Scripts\\python.exe", "start": "2026-07-12T15:33:38.275321", "end": "2026-07-12T15:34:46.325353", "duration_seconds": 68.1}
+{"process": "electron.exe", "title": "ATLAS", "start": "2026-07-12T15:34:46.325353", "end": "2026-07-12T15:35:28.364289", "duration_seconds": 42.0}
+{"process": "electron.exe", "title": "ATLAS", "start": "2026-07-12T15:34:45.256092", "end": "2026-07-12T15:35:29.285311", "duration_seconds": 44.0}
+{"process": "WindowsTerminal.exe", "title": "E:\\CODE\\ATLAS\\.venv\\Scripts\\python.exe", "start": "2026-07-12T15:35:28.364289", "end": "2026-07-12T15:37:08.485733", "duration_seconds": 100.1}
+{"process": "WindowsTerminal.exe", "title": "E:\\CODE\\ATLAS\\.venv\\Scripts\\python.exe", "start": "2026-07-12T15:35:29.285311", "end": "2026-07-12T15:37:09.338907", "duration_seconds": 100.1}
+{"process": "electron.exe", "title": "ATLAS", "start": "2026-07-12T15:37:09.338907", "end": "2026-07-12T15:38:13.370817", "duration_seconds": 64.0}
+{"process": "electron.exe", "title": "ATLAS", "start": "2026-07-12T15:37:08.485733", "end": "2026-07-12T15:38:14.533687", "duration_seconds": 66.0}
+{"process": "WindowsTerminal.exe", "title": "E:\\CODE\\ATLAS\\.venv\\Scripts\\python.exe", "start": "2026-07-12T15:38:13.370817", "end": "2026-07-12T15:38:27.379249", "duration_seconds": 14.0}
+{"process": "WindowsTerminal.exe", "title": "E:\\CODE\\ATLAS\\.venv\\Scripts\\python.exe", "start": "2026-07-12T15:38:14.533687", "end": "2026-07-12T15:38:28.544979", "duration_seconds": 14.0}
+{"process": "Spotify.exe", "title": "Spotify", "start": "2026-07-12T15:38:27.379249", "end": "2026-07-12T15:38:29.380601", "duration_seconds": 2.0}
+{"process": "Spotify.exe", "title": "Spotify Premium", "start": "2026-07-12T15:38:29.380601", "end": "2026-07-12T15:39:31.423475", "duration_seconds": 62.0}
+{"process": "Spotify.exe", "title": "Spotify Premium", "start": "2026-07-12T15:38:28.544979", "end": "2026-07-12T15:39:32.597930", "duration_seconds": 64.1}
+{"process": "WindowsTerminal.exe", "title": "E:\\CODE\\ATLAS\\.venv\\Scripts\\python.exe", "start": "2026-07-12T15:39:32.597930", "end": "2026-07-12T15:39:42.605533", "duration_seconds": 10.0}
+{"process": "WindowsTerminal.exe", "title": "E:\\CODE\\ATLAS\\.venv\\Scripts\\python.exe", "start": "2026-07-12T15:39:31.423475", "end": "2026-07-12T15:39:43.442609", "duration_seconds": 12.0}
+{"process": "Code.exe", "title": "launch_atlas.py - Untitled (Workspace) - Visual Studio Code", "start": "2026-07-12T15:39:42.605533", "end": "2026-07-12T15:39:44.608124", "duration_seconds": 2.0}
+{"process": "electron.exe", "title": "ATLAS", "start": "2026-07-12T15:39:44.608124", "end": "2026-07-12T15:39:46.610354", "duration_seconds": 2.0}
+{"process": "Code.exe", "title": "launch_atlas.py - Untitled (Workspace) - Visual Studio Code", "start": "2026-07-12T15:39:43.442609", "end": "2026-07-12T15:39:47.445879", "duration_seconds": 4.0}
+{"process": "Code.exe", "title": "launch_atlas.py - Untitled (Workspace) - Visual Studio Code", "start": "2026-07-12T15:39:46.610354", "end": "2026-07-12T15:39:48.612558", "duration_seconds": 2.0}
+{"process": "WindowsTerminal.exe", "title": "E:\\CODE\\ATLAS\\.venv\\Scripts\\python.exe", "start": "2026-07-12T15:39:48.612558", "end": "2026-07-12T15:40:22.634502", "duration_seconds": 34.0}
+{"process": "WindowsTerminal.exe", "title": "E:\\CODE\\ATLAS\\.venv\\Scripts\\python.exe", "start": "2026-07-12T15:39:49.447317", "end": "2026-07-12T15:40:23.471276", "duration_seconds": 34.0}
+{"process": "electron.exe", "title": "ATLAS", "start": "2026-07-12T15:40:22.634502", "end": "2026-07-12T15:40:24.635651", "duration_seconds": 2.0}
+{"process": "electron.exe", "title": "ATLAS", "start": "2026-07-12T15:40:23.471276", "end": "2026-07-12T15:40:25.472564", "duration_seconds": 2.0}
+{"process": "WindowsTerminal.exe", "title": "E:\\CODE\\ATLAS\\.venv\\Scripts\\python.exe", "start": "2026-07-12T15:40:24.635651", "end": "2026-07-12T15:40:38.649281", "duration_seconds": 14.0}
+{"process": "WindowsTerminal.exe", "title": "E:\\CODE\\ATLAS\\.venv\\Scripts\\python.exe", "start": "2026-07-12T15:40:25.472564", "end": "2026-07-12T15:40:39.480525", "duration_seconds": 14.0}
+{"process": "brave.exe", "title": "New Tab - Brave", "start": "2026-07-12T15:40:38.649281", "end": "2026-07-12T15:40:54.674067", "duration_seconds": 16.0}
+{"process": "brave.exe", "title": "New Tab - Brave", "start": "2026-07-12T15:40:39.480525", "end": "2026-07-12T15:40:55.497868", "duration_seconds": 16.0}
+{"process": "WindowsTerminal.exe", "title": "E:\\CODE\\ATLAS\\.venv\\Scripts\\python.exe", "start": "2026-07-12T15:40:55.497868", "end": "2026-07-12T15:42:35.573178", "duration_seconds": 100.1}
+{"process": "WindowsTerminal.exe", "title": "E:\\CODE\\ATLAS\\.venv\\Scripts\\python.exe", "start": "2026-07-12T15:40:54.674067", "end": "2026-07-12T15:42:36.772560", "duration_seconds": 102.1}
+{"process": "electron.exe", "title": "ATLAS", "start": "2026-07-12T15:42:36.772560", "end": "2026-07-12T15:42:42.778729", "duration_seconds": 6.0}
+{"process": "electron.exe", "title": "ATLAS", "start": "2026-07-12T15:42:35.573178", "end": "2026-07-12T15:42:43.581742", "duration_seconds": 8.0}
+{"process": "WindowsTerminal.exe", "title": "E:\\CODE\\ATLAS\\.venv\\Scripts\\python.exe", "start": "2026-07-12T15:42:42.778729", "end": "2026-07-12T15:43:20.811830", "duration_seconds": 38.0}
+{"process": "WindowsTerminal.exe", "title": "E:\\CODE\\ATLAS\\.venv\\Scripts\\python.exe", "start": "2026-07-12T15:42:43.581742", "end": "2026-07-12T15:43:21.614609", "duration_seconds": 38.0}
+{"process": "electron.exe", "title": "ATLAS", "start": "2026-07-12T15:43:20.811830", "end": "2026-07-12T15:43:36.822289", "duration_seconds": 16.0}
+{"process": "electron.exe", "title": "ATLAS", "start": "2026-07-12T15:43:21.614609", "end": "2026-07-12T15:43:37.624069", "duration_seconds": 16.0}
+{"process": "WindowsTerminal.exe", "title": "E:\\CODE\\ATLAS\\.venv\\Scripts\\python.exe", "start": "2026-07-12T15:43:37.624069", "end": "2026-07-12T15:44:07.653037", "duration_seconds": 30.0}
+{"process": "WindowsTerminal.exe", "title": "E:\\CODE\\ATLAS\\.venv\\Scripts\\python.exe", "start": "2026-07-12T15:43:36.822289", "end": "2026-07-12T15:44:08.855377", "duration_seconds": 32.0}
+{"process": "electron.exe", "title": "ATLAS", "start": "2026-07-12T15:44:07.653037", "end": "2026-07-12T15:44:21.673283", "duration_seconds": 14.0}
+{"process": "WindowsTerminal.exe", "title": "E:\\CODE\\ATLAS\\.venv\\Scripts\\python.exe", "start": "2026-07-12T15:44:36.069763", "end": "2026-07-12T15:44:38.071261", "duration_seconds": 2.0}
+{"process": "electron.exe", "title": "ATLAS", "start": "2026-07-12T15:44:38.071261", "end": "2026-07-12T15:44:42.074316", "duration_seconds": 4.0}
+{"process": "WindowsTerminal.exe", "title": "E:\\CODE\\ATLAS\\.venv\\Scripts\\python.exe", "start": "2026-07-12T15:44:42.074316", "end": "2026-07-12T15:45:34.102130", "duration_seconds": 52.0}
+{"process": "WindowsTerminal.exe", "title": "E:\\CODE\\ATLAS\\.venv\\Scripts\\python.exe", "start": "2026-07-12T15:44:44.122904", "end": "2026-07-12T15:45:34.191076", "duration_seconds": 50.1}
+{"process": "electron.exe", "title": "ATLAS", "start": "2026-07-12T15:45:34.102130", "end": "2026-07-12T15:47:28.170675", "duration_seconds": 114.1}
+{"process": "WindowsTerminal.exe", "title": "E:\\CODE\\ATLAS\\.venv\\Scripts\\python.exe", "start": "2026-07-12T15:47:28.170675", "end": "2026-07-12T15:47:30.178472", "duration_seconds": 2.0}
+{"process": "electron.exe", "title": "ATLAS", "start": "2026-07-12T15:47:30.178472", "end": "2026-07-12T15:47:58.195822", "duration_seconds": 28.0}
+{"process": "electron.exe", "title": "ATLAS", "start": "2026-07-12T15:45:34.191076", "end": "2026-07-12T15:47:58.293230", "duration_seconds": 144.1}
+{"process": "WindowsTerminal.exe", "title": "E:\\CODE\\ATLAS\\.venv\\Scripts\\python.exe", "start": "2026-07-12T15:47:58.195822", "end": "2026-07-12T15:49:00.227974", "duration_seconds": 62.0}
+{"process": "WindowsTerminal.exe", "title": "E:\\CODE\\ATLAS\\.venv\\Scripts\\python.exe", "start": "2026-07-12T15:47:58.293230", "end": "2026-07-12T15:49:00.326972", "duration_seconds": 62.0}
+{"process": "electron.exe", "title": "ATLAS", "start": "2026-07-12T15:49:00.227974", "end": "2026-07-12T15:49:08.233026", "duration_seconds": 8.0}
+{"process": "electron.exe", "title": "ATLAS", "start": "2026-07-12T15:49:00.326972", "end": "2026-07-12T15:49:08.332706", "duration_seconds": 8.0}
+{"process": "WindowsTerminal.exe", "title": "E:\\CODE\\ATLAS\\.venv\\Scripts\\python.exe", "start": "2026-07-12T15:49:08.233026", "end": "2026-07-12T15:49:14.241755", "duration_seconds": 6.0}
+{"process": "WindowsTerminal.exe", "title": "E:\\CODE\\ATLAS\\.venv\\Scripts\\python.exe", "start": "2026-07-12T15:49:08.332706", "end": "2026-07-12T15:49:14.335826", "duration_seconds": 6.0}
+{"process": "WindowsTerminal.exe", "title": "E:\\CODE\\ATLAS\\.venv\\Scripts\\python.exe", "start": "2026-07-12T15:52:25.804109", "end": "2026-07-12T15:52:31.809326", "duration_seconds": 6.0}
+{"process": "electron.exe", "title": "ATLAS", "start": "2026-07-12T15:52:33.785463", "end": "2026-07-12T15:52:35.786420", "duration_seconds": 2.0}
+{"process": "electron.exe", "title": "ATLAS", "start": "2026-07-12T15:52:31.809326", "end": "2026-07-12T15:52:35.814550", "duration_seconds": 4.0}
+{"process": "Code.exe", "title": "engine.py - Untitled (Workspace) - Visual Studio Code", "start": "2026-07-12T15:52:35.814550", "end": "2026-07-12T15:52:39.816903", "duration_seconds": 4.0}
+{"process": "Code.exe", "title": "engine.py - Untitled (Workspace) - Visual Studio Code", "start": "2026-07-12T15:52:35.786420", "end": "2026-07-12T15:52:39.992615", "duration_seconds": 4.2}
+{"process": "Code.exe", "title": "content_classifier.py - Untitled (Workspace) - Visual Studio Code", "start": "2026-07-12T15:52:39.816903", "end": "2026-07-12T15:52:43.829386", "duration_seconds": 4.0}
+{"process": "Code.exe", "title": "content_classifier.py - Untitled (Workspace) - Visual Studio Code", "start": "2026-07-12T15:52:39.992615", "end": "2026-07-12T15:52:44.020922", "duration_seconds": 4.0}
+{"process": "Code.exe", "title": "__init__.py - Untitled (Workspace) - Visual Studio Code", "start": "2026-07-12T15:52:43.829386", "end": "2026-07-12T15:52:47.833882", "duration_seconds": 4.0}
+{"process": "Code.exe", "title": "__init__.py - Untitled (Workspace) - Visual Studio Code", "start": "2026-07-12T15:52:44.020922", "end": "2026-07-12T15:52:48.026654", "duration_seconds": 4.0}
+{"process": "Code.exe", "title": "history_logger.py - Untitled (Workspace) - Visual Studio Code", "start": "2026-07-12T15:52:47.833882", "end": "2026-07-12T15:52:53.840317", "duration_seconds": 6.0}
+{"process": "Code.exe", "title": "history_logger.py - Untitled (Workspace) - Visual Studio Code", "start": "2026-07-12T15:52:48.026654", "end": "2026-07-12T15:52:54.034021", "duration_seconds": 6.0}
+{"process": "Code.exe", "title": "awareness.py - Untitled (Workspace) - Visual Studio Code", "start": "2026-07-12T15:52:54.034021", "end": "2026-07-12T15:53:08.044441", "duration_seconds": 14.0}
+{"process": "Code.exe", "title": "awareness.py - Untitled (Workspace) - Visual Studio Code", "start": "2026-07-12T15:52:53.840317", "end": "2026-07-12T15:53:09.848539", "duration_seconds": 16.0}
+{"process": "Code.exe", "title": "stats_engine.py - Untitled (Workspace) - Visual Studio Code", "start": "2026-07-12T15:53:09.848539", "end": "2026-07-12T15:53:23.861581", "duration_seconds": 14.0}
+{"process": "Code.exe", "title": "stats_engine.py - Untitled (Workspace) - Visual Studio Code", "start": "2026-07-12T15:53:08.044441", "end": "2026-07-12T15:53:24.056370", "duration_seconds": 16.0}
+{"process": "Code.exe", "title": "store.py - Untitled (Workspace) - Visual Studio Code", "start": "2026-07-12T15:53:23.861581", "end": "2026-07-12T15:53:25.864202", "duration_seconds": 2.0}
+{"process": "Code.exe", "title": "store.py - Untitled (Workspace) - Visual Studio Code", "start": "2026-07-12T15:53:24.056370", "end": "2026-07-12T15:53:26.057855", "duration_seconds": 2.0}
+{"process": "Code.exe", "title": "extractor.py - Untitled (Workspace) - Visual Studio Code", "start": "2026-07-12T15:53:25.864202", "end": "2026-07-12T15:53:35.869160", "duration_seconds": 10.0}
+{"process": "Code.exe", "title": "extractor.py - Untitled (Workspace) - Visual Studio Code", "start": "2026-07-12T15:53:26.057855", "end": "2026-07-12T15:53:36.064623", "duration_seconds": 10.0}
+{"process": "Code.exe", "title": "evaluator.py - Untitled (Workspace) - Visual Studio Code", "start": "2026-07-12T15:53:35.869160", "end": "2026-07-12T15:53:47.878515", "duration_seconds": 12.0}
+{"process": "Code.exe", "title": "evaluator.py - Untitled (Workspace) - Visual Studio Code", "start": "2026-07-12T15:53:36.064623", "end": "2026-07-12T15:53:48.069691", "duration_seconds": 12.0}
+{"process": "Code.exe", "title": "runtime.py - Untitled (Workspace) - Visual Studio Code", "start": "2026-07-12T15:53:48.069691", "end": "2026-07-12T15:53:50.071145", "duration_seconds": 2.0}
+{"process": "Code.exe", "title": "event_bus.py - Untitled (Workspace) - Visual Studio Code", "start": "2026-07-12T15:53:50.071145", "end": "2026-07-12T15:53:52.072716", "duration_seconds": 2.0}
+{"process": "Code.exe", "title": "runtime.py - Untitled (Workspace) - Visual Studio Code", "start": "2026-07-12T15:53:47.878515", "end": "2026-07-12T15:54:15.902700", "duration_seconds": 28.0}
+{"process": "Code.exe", "title": "runtime.py - Untitled (Workspace) - Visual Studio Code", "start": "2026-07-12T15:53:52.072716", "end": "2026-07-12T15:54:16.084104", "duration_seconds": 24.0}
+{"process": "Code.exe", "title": "__init__.py - Untitled (Workspace) - Visual Studio Code", "start": "2026-07-12T15:54:15.902700", "end": "2026-07-12T15:54:17.908215", "duration_seconds": 2.0}
+{"process": "Code.exe", "title": "__init__.py - Untitled (Workspace) - Visual Studio Code", "start": "2026-07-12T15:54:16.084104", "end": "2026-07-12T15:54:18.085878", "duration_seconds": 2.0}
+{"process": "Code.exe", "title": "runtime.py - Untitled (Workspace) - Visual Studio Code", "start": "2026-07-12T15:54:17.908215", "end": "2026-07-12T15:54:21.914609", "duration_seconds": 4.0}
+{"process": "Code.exe", "title": "runtime.py - Untitled (Workspace) - Visual Studio Code", "start": "2026-07-12T15:54:18.085878", "end": "2026-07-12T15:54:22.087689", "duration_seconds": 4.0}
+{"process": "Code.exe", "title": "event_bus.py - Untitled (Workspace) - Visual Studio Code", "start": "2026-07-12T15:54:21.914609", "end": "2026-07-12T15:55:03.938230", "duration_seconds": 42.0}
+{"process": "Code.exe", "title": "event_bus.py - Untitled (Workspace) - Visual Studio Code", "start": "2026-07-12T15:54:22.087689", "end": "2026-07-12T15:55:04.111796", "duration_seconds": 42.0}
+{"process": "WindowsTerminal.exe", "title": "E:\\CODE\\ATLAS\\.venv\\Scripts\\python.exe", "start": "2026-07-12T15:55:05.940013", "end": "2026-07-12T15:55:51.977754", "duration_seconds": 46.0}
+{"process": "WindowsTerminal.exe", "title": "E:\\CODE\\ATLAS\\.venv\\Scripts\\python.exe", "start": "2026-07-12T15:55:06.114166", "end": "2026-07-12T15:55:52.147239", "duration_seconds": 46.0}
+{"process": "electron.exe", "title": "ATLAS", "start": "2026-07-12T15:55:51.977754", "end": "2026-07-12T15:55:59.984909", "duration_seconds": 8.0}
+{"process": "electron.exe", "title": "ATLAS", "start": "2026-07-12T15:55:52.147239", "end": "2026-07-12T15:56:00.153460", "duration_seconds": 8.0}
+{"process": "WindowsTerminal.exe", "title": "E:\\CODE\\ATLAS\\.venv\\Scripts\\python.exe", "start": "2026-07-12T15:56:00.153460", "end": "2026-07-12T15:56:44.179391", "duration_seconds": 44.0}
+{"process": "WindowsTerminal.exe", "title": "E:\\CODE\\ATLAS\\.venv\\Scripts\\python.exe", "start": "2026-07-12T16:00:15.573166", "end": "2026-07-12T16:00:17.578785", "duration_seconds": 2.0}
+{"process": "electron.exe", "title": "ATLAS", "start": "2026-07-12T16:00:23.387176", "end": "2026-07-12T16:00:49.499410", "duration_seconds": 26.1}
+{"process": "electron.exe", "title": "ATLAS", "start": "2026-07-12T16:00:17.578785", "end": "2026-07-12T16:00:49.597949", "duration_seconds": 32.0}
+{"process": "WindowsTerminal.exe", "title": "E:\\CODE\\ATLAS\\.venv\\Scripts\\python.exe", "start": "2026-07-12T16:00:49.499410", "end": "2026-07-12T16:01:15.514382", "duration_seconds": 26.0}
+{"process": "WindowsTerminal.exe", "title": "E:\\CODE\\ATLAS\\.venv\\Scripts\\python.exe", "start": "2026-07-12T16:00:49.597949", "end": "2026-07-12T16:01:15.610171", "duration_seconds": 26.0}
+{"process": "electron.exe", "title": "ATLAS", "start": "2026-07-12T16:01:15.514382", "end": "2026-07-12T16:04:53.652840", "duration_seconds": 218.1}
+{"process": "electron.exe", "title": "ATLAS", "start": "2026-07-12T16:01:15.610171", "end": "2026-07-12T16:04:53.750818", "duration_seconds": 218.1}
+{"process": "WindowsTerminal.exe", "title": "E:\\CODE\\ATLAS\\.venv\\Scripts\\python.exe", "start": "2026-07-12T16:04:53.750818", "end": "2026-07-12T16:06:27.815148", "duration_seconds": 94.1}

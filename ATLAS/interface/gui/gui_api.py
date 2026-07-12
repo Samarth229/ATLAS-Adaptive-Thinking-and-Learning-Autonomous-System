@@ -2,6 +2,9 @@ import json
 import os
 import time
 from datetime import datetime
+from pathlib import Path
+
+BASE_DIR = Path(__file__).resolve().parents[2]
 
 from services.monitoring.system_awareness_v0_1.awareness import system_awareness
 from services.monitoring.system_awareness_v0_1.history_logger import history_logger
@@ -12,9 +15,10 @@ from services.monitoring.memory_extraction_v0_1.extractor import extract_facts_f
 _REMINDERS_PATH = os.path.normpath(os.path.join(
     os.path.dirname(__file__), "..", "..", "memory", "structured", "reminders.json"
 ))
-_PROACTIVE_MUTE_FLAG_PATH = r"E:\Requirements\atlas_proactive_muted_until.json"
-_GUI_LOG_PATH = r"E:\Requirements\atlas_gui_conversation_log.json"
-_GUI_NOTIFICATION_PATH = r"E:\Requirements\atlas_gui_last_notification.json"
+
+_PROACTIVE_MUTE_FLAG_PATH = BASE_DIR / "memory" / "structured" / "atlas_proactive_muted_until.json"
+_GUI_LOG_PATH = BASE_DIR / "memory" / "structured" / "atlas_gui_conversation_log.json"
+_GUI_NOTIFICATION_PATH = BASE_DIR / "memory" / "structured" / "atlas_gui_last_notification.json"
 
 
 class GuiApi:

@@ -3,8 +3,11 @@ import json
 import time
 import threading
 from datetime import datetime
+from pathlib import Path
 
-_LOG_DIR = r"E:\ATLAS\ATLAS\memory\structured\activity_history"
+
+BASE_DIR = Path(__file__).resolve().parents[4]
+_LOG_DIR = BASE_DIR / "memory" / "structured" / "activity_history"
 
 # Maps spoken app names to process name substrings (lowercase)
 _APP_NAME_ALIASES = {

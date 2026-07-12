@@ -116,19 +116,21 @@ Speaker output → back to listening
 
 ## Requirements
 
+- MAKE SURE DEVELOPER MODE IS ON B4 RUNNING. ( SETTINGS-->PRIVACYA AND SECURITY-->SEARCH 'DEVELOPER')
+
 ### System
 - Windows 10/11 (64-bit)
-- NVIDIA GPU with CUDA 12.x (for GPU-accelerated STT and vision)
+- *NVIDIA GPU with CUDA 12.4 (for GPU-accelerated STT and vision)*
 - [Ollama](https://ollama.com) installed and running
 - [eSpeak-ng](https://github.com/espeak-ng/espeak-ng/releases) installed
 - [Node.js](https://nodejs.org) (for the Electron GUI)
 
 ### Ollama Models
 ```bash
-ollama pull mistral
-ollama pull llama3.1:8b
-ollama pull deepseek-coder:6.7b
-ollama pull phi3
+ollama pull mistral #done
+ollama pull llama3.1:8b 
+ollama pull deepseek-coder:6.7b 
+ollama pull phi3 #done
 ollama pull llava
 ```
 
@@ -177,19 +179,19 @@ npm install
 
 ## Running ATLAS
 
-### One-click (voice + GUI together)
+## OPTION A : One-click (voice + GUI together)
 ```bash
 python launch_atlas.py
 ```
 Launches voice mode, the local Flask backend, and the Electron GUI together. Closing the GUI window shuts everything down cleanly.
 
-### Voice only
+### OPTION B Voice only
 ```bash
 cd ATLAS
 python main.py voice
 ```
 
-### Text mode
+### OPTION C Text mode
 ```bash
 cd ATLAS
 python main.py
@@ -233,6 +235,8 @@ Say **"Hey Jarvis"** to activate.
 
 **Samarth Kadam** — B.Tech Computer Science, VIT Bhopal  
 Personal AI systems project — started February 2025, version 1 completed June 2026
+**Kousthubh Vasudevan** - B.Tech Computer Science, VIT Bhopal  
+Intern.
 
 ---
 

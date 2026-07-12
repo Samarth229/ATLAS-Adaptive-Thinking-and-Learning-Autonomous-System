@@ -1,11 +1,12 @@
 import subprocess
 import time
 import os
+import sys
 
-_PYTHON_EXE = r"E:\ATLAS\venv_voice\Scripts\python.exe"
-_ATLAS_DIR = r"E:\ATLAS\ATLAS"
+_ATLAS_DIR = os.path.dirname(os.path.abspath(__file__))
+_PYTHON_EXE = sys.executable
 _MAIN_PY = os.path.join(_ATLAS_DIR, "main.py")
-_ELECTRON_DIR = r"E:\ATLAS\ATLAS\interface\gui_electron"
+_ELECTRON_DIR = os.path.join(_ATLAS_DIR, "interface", "gui_electron")
 
 
 def main():

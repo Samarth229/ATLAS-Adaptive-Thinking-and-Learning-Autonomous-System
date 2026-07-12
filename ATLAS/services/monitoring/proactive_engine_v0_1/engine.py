@@ -3,11 +3,15 @@ import os
 import time
 import threading
 from datetime import datetime
+from pathlib import Path
+
+BASE_DIR = Path(__file__).resolve().parents[2]  # Adjust if needed
 
 from services.monitoring.system_awareness_v0_1.awareness import system_awareness
 
 _REMINDERS_PATH = os.path.normpath(os.path.join(
     os.path.dirname(__file__), "..", "..", "..", "memory", "structured", "reminders.json"
+
 ))
 
 
@@ -67,7 +71,7 @@ class ProactiveEngine:
         self._running = False
 
     def _is_muted(self) -> bool:
-        mute_path = r"E:\Requirements\atlas_proactive_muted_until.json"
+        mute_path = BASE_DIR / "atlas_proactive_muted_until.json"
         if not os.path.exists(mute_path):
             return False
         try:

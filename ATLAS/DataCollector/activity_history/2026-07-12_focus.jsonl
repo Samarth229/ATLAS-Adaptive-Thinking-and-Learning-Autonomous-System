@@ -1,0 +1,165 @@
+{"process": "Code.exe", "title": "main.py - Untitled (Workspace) - Visual Studio Code", "start": "2026-07-12T06:07:02.075810", "end": "2026-07-12T06:07:04.657853", "duration_seconds": 2.6}
+{"process": "python.exe", "title": "tk", "start": "2026-07-12T06:07:04.657853", "end": "2026-07-12T06:07:06.660875", "duration_seconds": 2.0}
+{"process": "Code.exe", "title": "main.py - Untitled (Workspace) - Visual Studio Code", "start": "2026-07-12T06:07:06.660875", "end": "2026-07-12T06:07:18.679242", "duration_seconds": 12.0}
+{"process": "Code.exe", "title": "indicator.py - Untitled (Workspace) - Visual Studio Code", "start": "2026-07-12T06:07:18.679242", "end": "2026-07-12T06:07:30.699976", "duration_seconds": 12.0}
+{"process": "Code.exe", "title": "start_collector.bat - Untitled (Workspace) - Visual Studio Code", "start": "2026-07-12T06:07:30.699976", "end": "2026-07-12T06:07:34.709476", "duration_seconds": 4.0}
+{"process": "Code.exe", "title": "collector.py - Untitled (Workspace) - Visual Studio Code", "start": "2026-07-12T06:07:34.709476", "end": "2026-07-12T06:07:38.715256", "duration_seconds": 4.0}
+{"process": "Code.exe", "title": "main.py - Untitled (Workspace) - Visual Studio Code", "start": "2026-07-12T06:07:38.715256", "end": "2026-07-12T06:07:42.721603", "duration_seconds": 4.0}
+{"process": "Code.exe", "title": "indicator.cpython-311.pyc - Untitled (Workspace) - Visual Studio Code", "start": "2026-07-12T06:07:42.721603", "end": "2026-07-12T06:07:44.725024", "duration_seconds": 2.0}
+{"process": "Code.exe", "title": "2026-07-12_background.jsonl - Untitled (Workspace) - Visual Studio Code", "start": "2026-07-12T06:07:44.725024", "end": "2026-07-12T06:07:46.729017", "duration_seconds": 2.0}
+{"process": "Code.exe", "title": "2026-07-12_focus.jsonl - Untitled (Workspace) - Visual Studio Code", "start": "2026-07-12T06:07:46.729017", "end": "2026-07-12T06:07:48.732696", "duration_seconds": 2.0}
+{"process": "Code.exe", "title": "launch_atlas.py - Untitled (Workspace) - Visual Studio Code", "start": "2026-07-12T06:07:48.732696", "end": "2026-07-12T06:07:50.779322", "duration_seconds": 2.0}
+{"process": "Code.exe", "title": "main.py - Untitled (Workspace) - Visual Studio Code", "start": "2026-07-12T06:10:26.523556", "end": "2026-07-12T06:10:28.616422", "duration_seconds": 2.1}
+{"process": "python.exe", "title": "tk", "start": "2026-07-12T06:10:28.616422", "end": "2026-07-12T06:10:32.623210", "duration_seconds": 4.0}
+{"process": "Code.exe", "title": "main.py - Untitled (Workspace) - Visual Studio Code", "start": "2026-07-12T06:10:32.623210", "end": "2026-07-12T06:10:36.630791", "duration_seconds": 4.0}
+{"process": "explorer.exe", "title": "Program Manager", "start": "2026-07-12T06:10:36.630791", "end": "2026-07-12T06:10:38.634697", "duration_seconds": 2.0}
+{"process": "Code.exe", "title": "main.py - Untitled (Workspace) - Visual Studio Code", "start": "2026-07-12T06:10:38.634697", "end": "2026-07-12T06:11:12.687603", "duration_seconds": 34.1}
+{"process": "WindowsTerminal.exe", "title": "E:\\CODE\\ATLAS\\.venv\\Scripts\\python.exe", "start": "2026-07-12T06:11:12.687603", "end": "2026-07-12T06:11:14.696110", "duration_seconds": 2.0}
+{"process": "electron.exe", "title": "ATLAS", "start": "2026-07-12T06:11:14.696110", "end": "2026-07-12T06:11:28.723019", "duration_seconds": 14.0}
+{"process": "Code.exe", "title": "main.py - Untitled (Workspace) - Visual Studio Code", "start": "2026-07-12T06:11:28.723019", "end": "2026-07-12T06:11:40.749073", "duration_seconds": 12.0}
+{"process": "Code.exe", "title": "collector_output.log - Untitled (Workspace) - Visual Studio Code", "start": "2026-07-12T06:11:40.749073", "end": "2026-07-12T06:11:46.758600", "duration_seconds": 6.0}
+{"process": "Code.exe", "title": "collector.py - Untitled (Workspace) - Visual Studio Code", "start": "2026-07-12T06:11:46.758600", "end": "2026-07-12T06:11:56.775382", "duration_seconds": 10.0}
+{"process": "Code.exe", "title": "indicator.py - Untitled (Workspace) - Visual Studio Code", "start": "2026-07-12T06:11:56.775382", "end": "2026-07-12T06:11:58.779613", "duration_seconds": 2.0}
+{"process": "Code.exe", "title": "start_collector.bat - Untitled (Workspace) - Visual Studio Code", "start": "2026-07-12T06:11:58.779613", "end": "2026-07-12T06:12:00.783061", "duration_seconds": 2.0}
+{"process": "Code.exe", "title": "2026-07-12_background.jsonl - Untitled (Workspace) - Visual Studio Code", "start": "2026-07-12T06:12:00.783061", "end": "2026-07-12T06:12:02.787387", "duration_seconds": 2.0}
+{"process": "Code.exe", "title": "2026-07-12_focus.jsonl - Untitled (Workspace) - Visual Studio Code", "start": "2026-07-12T06:12:02.787387", "end": "2026-07-12T06:12:04.790625", "duration_seconds": 2.0}
+{"process": "Code.exe", "title": "2026-07-12_background.jsonl - Untitled (Workspace) - Visual Studio Code", "start": "2026-07-12T06:12:04.790625", "end": "2026-07-12T06:12:06.793925", "duration_seconds": 2.0}
+{"process": "Code.exe", "title": "collector_output.log - Untitled (Workspace) - Visual Studio Code", "start": "2026-07-12T06:12:06.793925", "end": "2026-07-12T06:12:08.797408", "duration_seconds": 2.0}
+{"process": "Code.exe", "title": "collector.py - Untitled (Workspace) - Visual Studio Code", "start": "2026-07-12T06:12:08.797408", "end": "2026-07-12T06:12:14.805650", "duration_seconds": 6.0}
+{"process": "Code.exe", "title": "main.py - Untitled (Workspace) - Visual Studio Code", "start": "2026-07-12T06:12:14.805650", "end": "2026-07-12T06:12:18.813343", "duration_seconds": 4.0}
+{"process": "brave.exe", "title": "GUI Data Not Displaying - Brave", "start": "2026-07-12T06:12:18.813343", "end": "2026-07-12T06:12:40.845352", "duration_seconds": 22.0}
+{"process": "Code.exe", "title": "main.py - Untitled (Workspace) - Visual Studio Code", "start": "2026-07-12T06:12:40.845352", "end": "2026-07-12T06:12:42.848857", "duration_seconds": 2.0}
+{"process": "brave.exe", "title": "GUI Data Not Displaying - Brave", "start": "2026-07-12T06:12:42.848857", "end": "2026-07-12T06:13:06.888999", "duration_seconds": 24.0}
+{"process": "Code.exe", "title": "collector.py - Untitled (Workspace) - Visual Studio Code", "start": "2026-07-12T06:13:06.888999", "end": "2026-07-12T06:13:10.896259", "duration_seconds": 4.0}
+{"process": "Code.exe", "title": "indicator.py - Untitled (Workspace) - Visual Studio Code", "start": "2026-07-12T06:13:10.896259", "end": "2026-07-12T06:13:20.910868", "duration_seconds": 10.0}
+{"process": "Code.exe", "title": "collector.cpython-313.pyc - Untitled (Workspace) - Visual Studio Code", "start": "2026-07-12T06:13:20.910868", "end": "2026-07-12T06:13:24.918265", "duration_seconds": 4.0}
+{"process": "Code.exe", "title": "2026-07-12_background.jsonl - Untitled (Workspace) - Visual Studio Code", "start": "2026-07-12T06:13:24.918265", "end": "2026-07-12T06:13:26.922428", "duration_seconds": 2.0}
+{"process": "Code.exe", "title": "2026-07-12_focus.jsonl - Untitled (Workspace) - Visual Studio Code", "start": "2026-07-12T06:13:26.922428", "end": "2026-07-12T06:13:28.926437", "duration_seconds": 2.0}
+{"process": "Code.exe", "title": "collector_output.log - Untitled (Workspace) - Visual Studio Code", "start": "2026-07-12T06:13:28.926437", "end": "2026-07-12T06:13:30.930186", "duration_seconds": 2.0}
+{"process": "Code.exe", "title": "indicator.py - Untitled (Workspace) - Visual Studio Code", "start": "2026-07-12T06:13:30.930186", "end": "2026-07-12T06:13:34.937405", "duration_seconds": 4.0}
+{"process": "Code.exe", "title": "start_collector.bat - Untitled (Workspace) - Visual Studio Code", "start": "2026-07-12T06:13:34.937405", "end": "2026-07-12T06:16:09.176339", "duration_seconds": 154.2}
+{"process": "WhatsApp.Root.exe", "title": "WhatsApp", "start": "2026-07-12T06:16:09.176339", "end": "2026-07-12T06:16:11.180143", "duration_seconds": 2.0}
+{"process": "Code.exe", "title": "start_collector.bat - Untitled (Workspace) - Visual Studio Code", "start": "2026-07-12T06:16:11.180143", "end": "2026-07-12T06:16:13.186451", "duration_seconds": 2.0}
+{"process": "brave.exe", "title": "GUI Data Not Displaying - Brave", "start": "2026-07-12T06:16:13.186451", "end": "2026-07-12T06:17:15.278963", "duration_seconds": 62.1}
+{"process": "Code.exe", "title": "start_collector.bat - Untitled (Workspace) - Visual Studio Code", "start": "2026-07-12T06:17:15.278963", "end": "2026-07-12T06:17:19.289719", "duration_seconds": 4.0}
+{"process": "Code.exe", "title": "launch_atlas.py - Untitled (Workspace) - Visual Studio Code", "start": "2026-07-12T06:17:19.289719", "end": "2026-07-12T06:17:21.293513", "duration_seconds": 2.0}
+{"process": "WindowsTerminal.exe", "title": "E:\\CODE\\ATLAS\\.venv\\Scripts\\python.exe", "start": "2026-07-12T06:17:21.293513", "end": "2026-07-12T06:17:23.298349", "duration_seconds": 2.0}
+{"process": "electron.exe", "title": "ATLAS", "start": "2026-07-12T06:17:23.298349", "end": "2026-07-12T06:17:31.310091", "duration_seconds": 8.0}
+{"process": "Code.exe", "title": "launch_atlas.py - Untitled (Workspace) - Visual Studio Code", "start": "2026-07-12T06:17:31.310091", "end": "2026-07-12T06:17:33.314067", "duration_seconds": 2.0}
+{"process": "brave.exe", "title": "GUI Data Not Displaying - Brave", "start": "2026-07-12T06:17:33.314067", "end": "2026-07-12T06:17:53.344870", "duration_seconds": 20.0}
+{"process": "Code.exe", "title": "launch_atlas.py - Untitled (Workspace) - Visual Studio Code", "start": "2026-07-12T06:17:53.344870", "end": "2026-07-12T06:18:25.405953", "duration_seconds": 32.1}
+{"process": "WindowsTerminal.exe", "title": "E:\\CODE\\ATLAS\\.venv\\Scripts\\python.exe", "start": "2026-07-12T06:18:25.405953", "end": "2026-07-12T06:18:41.427066", "duration_seconds": 16.0}
+{"process": "Code.exe", "title": "launch_atlas.py - Untitled (Workspace) - Visual Studio Code", "start": "2026-07-12T06:18:51.439405", "end": "2026-07-12T06:19:09.468155", "duration_seconds": 18.0}
+{"process": "brave.exe", "title": "GUI Data Not Displaying - Brave", "start": "2026-07-12T06:19:11.472618", "end": "2026-07-12T06:19:21.489044", "duration_seconds": 10.0}
+{"process": "brave.exe", "title": "New Tab - Brave", "start": "2026-07-12T06:19:21.489044", "end": "2026-07-12T06:19:23.492420", "duration_seconds": 2.0}
+{"process": "brave.exe", "title": "127.0.0.1 - Brave", "start": "2026-07-12T06:19:23.492420", "end": "2026-07-12T06:19:25.496224", "duration_seconds": 2.0}
+{"process": "brave.exe", "title": "Samarth229/ATLAS-Adaptive-Thinking-and-Learning-Autonomous-System: ATLAS is an adaptive offline AI system that integrates local LLMs to enable context-aware thinking, continuous learning, and autonomous decision-making without relying on internet connectivity. - Brave", "start": "2026-07-12T06:19:25.496224", "end": "2026-07-12T06:19:27.499264", "duration_seconds": 2.0}
+{"process": "Code.exe", "title": "launch_atlas.py - Untitled (Workspace) - Visual Studio Code", "start": "2026-07-12T06:19:27.499264", "end": "2026-07-12T06:19:31.505393", "duration_seconds": 4.0}
+{"process": "brave.exe", "title": "Samarth229/ATLAS-Adaptive-Thinking-and-Learning-Autonomous-System: ATLAS is an adaptive offline AI system that integrates local LLMs to enable context-aware thinking, continuous learning, and autonomous decision-making without relying on internet connectivity. - Brave", "start": "2026-07-12T06:19:31.505393", "end": "2026-07-12T06:19:33.508878", "duration_seconds": 2.0}
+{"process": "brave.exe", "title": "GUI Data Not Displaying - Brave", "start": "2026-07-12T06:19:33.508878", "end": "2026-07-12T06:26:02.090908", "duration_seconds": 388.6}
+{"process": "Code.exe", "title": "launch_atlas.py - Untitled (Workspace) - Visual Studio Code", "start": "2026-07-12T06:26:02.090908", "end": "2026-07-12T06:26:26.128790", "duration_seconds": 24.0}
+{"process": "Code.exe", "title": "awareness.py - Untitled (Workspace) - Visual Studio Code", "start": "2026-07-12T06:26:26.128790", "end": "2026-07-12T06:26:28.132812", "duration_seconds": 2.0}
+{"process": "Code.exe", "title": "history_logger.py - Untitled (Workspace) - Visual Studio Code", "start": "2026-07-12T06:26:28.132812", "end": "2026-07-12T06:26:36.148885", "duration_seconds": 8.0}
+{"process": "Code.exe", "title": "awareness.py - Untitled (Workspace) - Visual Studio Code", "start": "2026-07-12T06:26:36.148885", "end": "2026-07-12T06:26:48.167288", "duration_seconds": 12.0}
+{"process": "brave.exe", "title": "GUI Data Not Displaying - Brave", "start": "2026-07-12T06:26:48.167288", "end": "2026-07-12T06:27:26.224338", "duration_seconds": 38.1}
+{"process": "Code.exe", "title": "awareness.py - Untitled (Workspace) - Visual Studio Code", "start": "2026-07-12T06:27:26.224338", "end": "2026-07-12T06:27:28.228107", "duration_seconds": 2.0}
+{"process": "Code.exe", "title": "__init__.py - Untitled (Workspace) - Visual Studio Code", "start": "2026-07-12T06:27:28.228107", "end": "2026-07-12T06:27:30.233240", "duration_seconds": 2.0}
+{"process": "Code.exe", "title": "history_logger.py - Untitled (Workspace) - Visual Studio Code", "start": "2026-07-12T06:27:30.233240", "end": "2026-07-12T06:27:38.248359", "duration_seconds": 8.0}
+{"process": "brave.exe", "title": "GUI Data Not Displaying - Brave", "start": "2026-07-12T06:27:38.248359", "end": "2026-07-12T06:28:12.298144", "duration_seconds": 34.0}
+{"process": "Code.exe", "title": "history_logger.py - Untitled (Workspace) - Visual Studio Code", "start": "2026-07-12T06:28:12.298144", "end": "2026-07-12T06:28:16.305347", "duration_seconds": 4.0}
+{"process": "brave.exe", "title": "GUI Data Not Displaying - Brave", "start": "2026-07-12T06:28:16.305347", "end": "2026-07-12T06:28:20.311530", "duration_seconds": 4.0}
+{"process": "Code.exe", "title": "history_logger.py - Untitled (Workspace) - Visual Studio Code", "start": "2026-07-12T06:28:20.311530", "end": "2026-07-12T06:28:24.318783", "duration_seconds": 4.0}
+{"process": "Code.exe", "title": "\u25cf history_logger.py - Untitled (Workspace) - Visual Studio Code", "start": "2026-07-12T06:28:24.318783", "end": "2026-07-12T06:28:30.329173", "duration_seconds": 6.0}
+{"process": "brave.exe", "title": "GUI Data Not Displaying - Brave", "start": "2026-07-12T06:28:30.329173", "end": "2026-07-12T06:28:34.335357", "duration_seconds": 4.0}
+{"process": "Code.exe", "title": "\u25cf history_logger.py - Untitled (Workspace) - Visual Studio Code", "start": "2026-07-12T06:28:34.335357", "end": "2026-07-12T06:28:40.350430", "duration_seconds": 6.0}
+{"process": "brave.exe", "title": "GUI Data Not Displaying - Brave", "start": "2026-07-12T06:28:40.350430", "end": "2026-07-12T06:28:44.358822", "duration_seconds": 4.0}
+{"process": "Code.exe", "title": "\u25cf history_logger.py - Untitled (Workspace) - Visual Studio Code", "start": "2026-07-12T06:28:44.358822", "end": "2026-07-12T06:28:46.363801", "duration_seconds": 2.0}
+{"process": "Code.exe", "title": "history_logger.py - Untitled (Workspace) - Visual Studio Code", "start": "2026-07-12T06:28:46.363801", "end": "2026-07-12T06:28:50.370469", "duration_seconds": 4.0}
+{"process": "Code.exe", "title": "launch_atlas.py - Untitled (Workspace) - Visual Studio Code", "start": "2026-07-12T06:28:50.370469", "end": "2026-07-12T06:28:52.374027", "duration_seconds": 2.0}
+{"process": "WindowsTerminal.exe", "title": "E:\\CODE\\ATLAS\\.venv\\Scripts\\python.exe", "start": "2026-07-12T06:28:52.374027", "end": "2026-07-12T06:28:54.379002", "duration_seconds": 2.0}
+{"process": "electron.exe", "title": "ATLAS", "start": "2026-07-12T06:28:54.379002", "end": "2026-07-12T06:29:02.393402", "duration_seconds": 8.0}
+{"process": "WindowsTerminal.exe", "title": "E:\\CODE\\ATLAS\\.venv\\Scripts\\python.exe", "start": "2026-07-12T06:29:02.393402", "end": "2026-07-12T06:29:28.433619", "duration_seconds": 26.0}
+{"process": "electron.exe", "title": "ATLAS", "start": "2026-07-12T06:29:28.433619", "end": "2026-07-12T06:29:30.437380", "duration_seconds": 2.0}
+{"process": "Code.exe", "title": "launch_atlas.py - Untitled (Workspace) - Visual Studio Code", "start": "2026-07-12T06:29:30.437380", "end": "2026-07-12T06:29:32.441383", "duration_seconds": 2.0}
+{"process": "brave.exe", "title": "GUI Data Not Displaying - Brave", "start": "2026-07-12T06:29:32.441383", "end": "2026-07-12T06:30:24.521130", "duration_seconds": 52.1}
+{"process": "ShellHost.exe", "title": "Quick settings", "start": "2026-07-12T06:30:24.521130", "end": "2026-07-12T06:30:26.524943", "duration_seconds": 2.0}
+{"process": "brave.exe", "title": "GUI Data Not Displaying - Brave", "start": "2026-07-12T06:30:26.524943", "end": "2026-07-12T06:31:04.586180", "duration_seconds": 38.1}
+{"process": "WhatsApp.Root.exe", "title": "WhatsApp", "start": "2026-07-12T06:31:04.586180", "end": "2026-07-12T06:33:22.801215", "duration_seconds": 138.2}
+{"process": "Code.exe", "title": "launch_atlas.py - Untitled (Workspace) - Visual Studio Code", "start": "2026-07-12T06:33:22.801215", "end": "2026-07-12T06:33:24.804030", "duration_seconds": 2.0}
+{"process": "Code.exe", "title": "awareness.py - Untitled (Workspace) - Visual Studio Code", "start": "2026-07-12T06:33:24.804030", "end": "2026-07-12T06:33:44.834555", "duration_seconds": 20.0}
+{"process": "Code.exe", "title": "flask_server.py - Untitled (Workspace) - Visual Studio Code", "start": "2026-07-12T06:33:44.834555", "end": "2026-07-12T06:33:46.838006", "duration_seconds": 2.0}
+{"process": "brave.exe", "title": "GUI Data Not Displaying - Brave", "start": "2026-07-12T06:33:46.838006", "end": "2026-07-12T06:33:54.851030", "duration_seconds": 8.0}
+{"process": "Code.exe", "title": "flask_server.py - Untitled (Workspace) - Visual Studio Code", "start": "2026-07-12T06:33:56.856979", "end": "2026-07-12T06:33:58.860471", "duration_seconds": 2.0}
+{"process": "brave.exe", "title": "GUI Data Not Displaying - Brave", "start": "2026-07-12T06:33:58.860471", "end": "2026-07-12T06:34:14.884126", "duration_seconds": 16.0}
+{"process": "brave.exe", "title": "New Tab - Brave", "start": "2026-07-12T06:34:14.884126", "end": "2026-07-12T06:34:16.888104", "duration_seconds": 2.0}
+{"process": "brave.exe", "title": "127.0.0.1 - Brave", "start": "2026-07-12T06:34:16.888104", "end": "2026-07-12T06:34:20.895525", "duration_seconds": 4.0}
+{"process": "Code.exe", "title": "flask_server.py - Untitled (Workspace) - Visual Studio Code", "start": "2026-07-12T06:34:20.895525", "end": "2026-07-12T06:34:22.899276", "duration_seconds": 2.0}
+{"process": "brave.exe", "title": "GUI Data Not Displaying - Brave", "start": "2026-07-12T06:34:22.899276", "end": "2026-07-12T06:34:36.921225", "duration_seconds": 14.0}
+{"process": "Code.exe", "title": "gui_api.py - Untitled (Workspace) - Visual Studio Code", "start": "2026-07-12T06:34:36.921225", "end": "2026-07-12T06:34:40.928622", "duration_seconds": 4.0}
+{"process": "brave.exe", "title": "GUI Data Not Displaying - Brave", "start": "2026-07-12T06:34:40.928622", "end": "2026-07-12T06:35:18.985380", "duration_seconds": 38.1}
+{"process": "explorer.exe", "title": "Task Switching", "start": "2026-07-12T06:35:18.985380", "end": "2026-07-12T06:35:20.988745", "duration_seconds": 2.0}
+{"process": "Code.exe", "title": "gui_api.py - Untitled (Workspace) - Visual Studio Code", "start": "2026-07-12T06:35:20.988745", "end": "2026-07-12T06:35:22.992306", "duration_seconds": 2.0}
+{"process": "brave.exe", "title": "GUI Data Not Displaying - Brave", "start": "2026-07-12T06:35:22.992306", "end": "2026-07-12T06:35:26.998800", "duration_seconds": 4.0}
+{"process": "Code.exe", "title": "\u25cf gui_api.py - Untitled (Workspace) - Visual Studio Code", "start": "2026-07-12T06:35:26.998800", "end": "2026-07-12T06:35:29.002357", "duration_seconds": 2.0}
+{"process": "brave.exe", "title": "GUI Data Not Displaying - Brave", "start": "2026-07-12T06:35:29.002357", "end": "2026-07-12T06:35:33.009389", "duration_seconds": 4.0}
+{"process": "Code.exe", "title": "\u25cf gui_api.py - Untitled (Workspace) - Visual Studio Code", "start": "2026-07-12T06:35:33.009389", "end": "2026-07-12T06:35:43.025555", "duration_seconds": 10.0}
+{"process": "Code.exe", "title": "Visual Studio Code", "start": "2026-07-12T06:35:43.025555", "end": "2026-07-12T06:35:45.029238", "duration_seconds": 2.0}
+{"process": "Code.exe", "title": "gui_api.py - Untitled (Workspace) - Visual Studio Code", "start": "2026-07-12T06:35:45.029238", "end": "2026-07-12T06:35:49.035839", "duration_seconds": 4.0}
+{"process": "WindowsTerminal.exe", "title": "Terminal", "start": "2026-07-12T06:35:49.035839", "end": "2026-07-12T06:35:51.045490", "duration_seconds": 2.0}
+{"process": "WindowsTerminal.exe", "title": "E:\\CODE\\ATLAS\\.venv\\Scripts\\python.exe", "start": "2026-07-12T06:35:51.045490", "end": "2026-07-12T06:35:53.049387", "duration_seconds": 2.0}
+{"process": "electron.exe", "title": "ATLAS", "start": "2026-07-12T06:35:53.049387", "end": "2026-07-12T06:35:57.056957", "duration_seconds": 4.0}
+{"process": "brave.exe", "title": "GUI Data Not Displaying - Brave", "start": "2026-07-12T06:35:57.056957", "end": "2026-07-12T06:35:59.061002", "duration_seconds": 2.0}
+{"process": "brave.exe", "title": "127.0.0.1 - Brave", "start": "2026-07-12T06:35:59.061002", "end": "2026-07-12T06:36:09.077730", "duration_seconds": 10.0}
+{"process": "WindowsTerminal.exe", "title": "E:\\CODE\\ATLAS\\.venv\\Scripts\\python.exe", "start": "2026-07-12T06:36:09.077730", "end": "2026-07-12T06:36:23.102231", "duration_seconds": 14.0}
+{"process": "brave.exe", "title": "127.0.0.1 - Brave", "start": "2026-07-12T06:36:23.102231", "end": "2026-07-12T06:36:31.114128", "duration_seconds": 8.0}
+{"process": "SnippingTool.exe", "title": "Snipping Tool Overlay", "start": "2026-07-12T06:36:31.114128", "end": "2026-07-12T06:36:33.117569", "duration_seconds": 2.0}
+{"process": "brave.exe", "title": "GUI Data Not Displaying - Brave", "start": "2026-07-12T06:36:33.117569", "end": "2026-07-12T06:36:39.126190", "duration_seconds": 6.0}
+{"process": "WindowsTerminal.exe", "title": "E:\\CODE\\ATLAS\\.venv\\Scripts\\python.exe", "start": "2026-07-12T06:36:39.126190", "end": "2026-07-12T06:36:41.130124", "duration_seconds": 2.0}
+{"process": "electron.exe", "title": "ATLAS", "start": "2026-07-12T06:36:41.130124", "end": "2026-07-12T06:36:43.133536", "duration_seconds": 2.0}
+{"process": "brave.exe", "title": "GUI Data Not Displaying - Brave", "start": "2026-07-12T06:36:55.151079", "end": "2026-07-12T06:38:13.267524", "duration_seconds": 78.1}
+{"process": "Code.exe", "title": "launch_atlas.py - Untitled (Workspace) - Visual Studio Code", "start": "2026-07-12T06:38:13.267524", "end": "2026-07-12T06:38:21.284403", "duration_seconds": 8.0}
+{"process": "Code.exe", "title": "flask_server.py - Untitled (Workspace) - Visual Studio Code", "start": "2026-07-12T06:38:21.284403", "end": "2026-07-12T06:38:35.310005", "duration_seconds": 14.0}
+{"process": "Code.exe", "title": "main.py - Untitled (Workspace) - Visual Studio Code", "start": "2026-07-12T06:38:35.310005", "end": "2026-07-12T06:38:43.326938", "duration_seconds": 8.0}
+{"process": "brave.exe", "title": "GUI Data Not Displaying - Brave", "start": "2026-07-12T06:38:43.326938", "end": "2026-07-12T06:39:15.379656", "duration_seconds": 32.1}
+{"process": "Code.exe", "title": "main.py - Untitled (Workspace) - Visual Studio Code", "start": "2026-07-12T06:39:15.379656", "end": "2026-07-12T06:39:25.394500", "duration_seconds": 10.0}
+{"process": "brave.exe", "title": "GUI Data Not Displaying - Brave", "start": "2026-07-12T06:39:25.394500", "end": "2026-07-12T06:39:31.404417", "duration_seconds": 6.0}
+{"process": "Code.exe", "title": "main.py - Untitled (Workspace) - Visual Studio Code", "start": "2026-07-12T06:39:31.404417", "end": "2026-07-12T06:39:33.408200", "duration_seconds": 2.0}
+{"process": "Code.exe", "title": "gui_api.py - Untitled (Workspace) - Visual Studio Code", "start": "2026-07-12T06:39:33.408200", "end": "2026-07-12T06:39:43.426014", "duration_seconds": 10.0}
+{"process": "brave.exe", "title": "GUI Data Not Displaying - Brave", "start": "2026-07-12T06:39:43.426014", "end": "2026-07-12T06:39:53.440865", "duration_seconds": 10.0}
+{"process": "Code.exe", "title": "gui_api.py - Untitled (Workspace) - Visual Studio Code", "start": "2026-07-12T06:39:53.440865", "end": "2026-07-12T06:40:13.472297", "duration_seconds": 20.0}
+{"process": "brave.exe", "title": "GUI Data Not Displaying - Brave", "start": "2026-07-12T06:40:13.472297", "end": "2026-07-12T06:40:23.486274", "duration_seconds": 10.0}
+{"process": "Code.exe", "title": "gui_api.py - Untitled (Workspace) - Visual Studio Code", "start": "2026-07-12T06:40:23.486274", "end": "2026-07-12T06:40:31.499128", "duration_seconds": 8.0}
+{"process": "Code.exe", "title": "requirements.txt - Untitled (Workspace) - Visual Studio Code", "start": "2026-07-12T06:40:31.499128", "end": "2026-07-12T06:40:39.511101", "duration_seconds": 8.0}
+{"process": "Code.exe", "title": "launch_atlas.py - Untitled (Workspace) - Visual Studio Code", "start": "2026-07-12T06:40:39.511101", "end": "2026-07-12T06:40:41.514428", "duration_seconds": 2.0}
+{"process": "WindowsTerminal.exe", "title": "E:\\CODE\\ATLAS\\.venv\\Scripts\\python.exe", "start": "2026-07-12T06:40:41.514428", "end": "2026-07-12T06:40:43.517975", "duration_seconds": 2.0}
+{"process": "electron.exe", "title": "ATLAS", "start": "2026-07-12T06:40:43.517975", "end": "2026-07-12T06:41:01.550899", "duration_seconds": 18.0}
+{"process": "WindowsTerminal.exe", "title": "E:\\CODE\\ATLAS\\.venv\\Scripts\\python.exe", "start": "2026-07-12T06:41:01.550899", "end": "2026-07-12T06:41:21.581543", "duration_seconds": 20.0}
+{"process": "ShellHost.exe", "title": "Quick settings", "start": "2026-07-12T06:41:21.581543", "end": "2026-07-12T06:41:27.592373", "duration_seconds": 6.0}
+{"process": "WindowsTerminal.exe", "title": "E:\\CODE\\ATLAS\\.venv\\Scripts\\python.exe", "start": "2026-07-12T06:41:27.592373", "end": "2026-07-12T06:41:29.596195", "duration_seconds": 2.0}
+{"process": "Code.exe", "title": "launch_atlas.py - Untitled (Workspace) - Visual Studio Code", "start": "2026-07-12T06:41:29.596195", "end": "2026-07-12T06:41:33.602989", "duration_seconds": 4.0}
+{"process": "electron.exe", "title": "ATLAS", "start": "2026-07-12T06:41:33.602989", "end": "2026-07-12T06:41:43.619641", "duration_seconds": 10.0}
+{"process": "Code.exe", "title": "launch_atlas.py - Untitled (Workspace) - Visual Studio Code", "start": "2026-07-12T06:41:47.628773", "end": "2026-07-12T06:43:47.817923", "duration_seconds": 120.2}
+{"process": "LockApp.exe", "title": "Windows Default Lock Screen", "start": "2026-07-12T06:43:47.817923", "end": "2026-07-12T11:50:06.309891", "duration_seconds": 18378.5}
+{"process": "Code.exe", "title": "launch_atlas.py - Untitled (Workspace) - Visual Studio Code", "start": "2026-07-12T11:50:12.320456", "end": "2026-07-12T11:50:26.346573", "duration_seconds": 14.0}
+{"process": "WindowsTerminal.exe", "title": "E:\\CODE\\ATLAS\\.venv\\Scripts\\python.exe", "start": "2026-07-12T11:50:26.346573", "end": "2026-07-12T11:50:28.349706", "duration_seconds": 2.0}
+{"process": "electron.exe", "title": "ATLAS", "start": "2026-07-12T11:50:28.349706", "end": "2026-07-12T11:50:46.380030", "duration_seconds": 18.0}
+{"process": "WindowsTerminal.exe", "title": "E:\\CODE\\ATLAS\\.venv\\Scripts\\python.exe", "start": "2026-07-12T11:50:46.380030", "end": "2026-07-12T11:51:24.441580", "duration_seconds": 38.1}
+{"process": "electron.exe", "title": "ATLAS", "start": "2026-07-12T11:51:24.441580", "end": "2026-07-12T11:51:42.474859", "duration_seconds": 18.0}
+{"process": "Spotify.exe", "title": "Spotify Premium", "start": "2026-07-12T11:51:42.474859", "end": "2026-07-12T11:51:56.516272", "duration_seconds": 14.0}
+{"process": "electron.exe", "title": "ATLAS", "start": "2026-07-12T11:51:56.516272", "end": "2026-07-12T11:52:06.533165", "duration_seconds": 10.0}
+{"process": "Code.exe", "title": "launch_atlas.py - Untitled (Workspace) - Visual Studio Code", "start": "2026-07-12T11:52:06.533165", "end": "2026-07-12T11:52:24.566069", "duration_seconds": 18.0}
+{"process": "WindowsTerminal.exe", "title": "E:\\CODE\\ATLAS\\.venv\\Scripts\\python.exe", "start": "2026-07-12T11:52:24.566069", "end": "2026-07-12T11:52:26.570043", "duration_seconds": 2.0}
+{"process": "electron.exe", "title": "ATLAS", "start": "2026-07-12T11:52:26.570043", "end": "2026-07-12T11:52:36.584060", "duration_seconds": 10.0}
+{"process": "Code.exe", "title": "launch_atlas.py - Untitled (Workspace) - Visual Studio Code", "start": "2026-07-12T11:52:36.584060", "end": "2026-07-12T11:53:00.623493", "duration_seconds": 24.0}
+{"process": "brave.exe", "title": "Samarth229/ATLAS-Adaptive-Thinking-and-Learning-Autonomous-System: ATLAS is an adaptive offline AI system that integrates local LLMs to enable context-aware thinking, continuous learning, and autonomous decision-making without relying on internet connectivity. - Brave", "start": "2026-07-12T11:53:00.623493", "end": "2026-07-12T11:53:08.641311", "duration_seconds": 8.0}
+{"process": "brave.exe", "title": "ATLAS-Adaptive-Thinking-and-Learning-Autonomous-System/DataCollector at main \u00b7 Samarth229/ATLAS-Adaptive-Thinking-and-Learning-Autonomous-System - Brave", "start": "2026-07-12T11:53:08.641311", "end": "2026-07-12T11:53:20.661435", "duration_seconds": 12.0}
+{"process": "brave.exe", "title": "Samarth229/ATLAS-Adaptive-Thinking-and-Learning-Autonomous-System: ATLAS is an adaptive offline AI system that integrates local LLMs to enable context-aware thinking, continuous learning, and autonomous decision-making without relying on internet connectivity. - Brave", "start": "2026-07-12T11:53:20.661435", "end": "2026-07-12T11:53:22.665693", "duration_seconds": 2.0}
+{"process": "Code.exe", "title": "launch_atlas.py - Untitled (Workspace) - Visual Studio Code", "start": "2026-07-12T11:53:22.665693", "end": "2026-07-12T11:53:54.716226", "duration_seconds": 32.1}
+{"process": "Code.exe", "title": "flask_server.py - Untitled (Workspace) - Visual Studio Code", "start": "2026-07-12T11:53:54.716226", "end": "2026-07-12T11:54:10.742464", "duration_seconds": 16.0}
+{"process": "Code.exe", "title": "main.py - Untitled (Workspace) - Visual Studio Code", "start": "2026-07-12T11:54:10.742464", "end": "2026-07-12T11:54:52.810244", "duration_seconds": 42.1}
+{"process": "Code.exe", "title": "requirements.txt - Untitled (Workspace) - Visual Studio Code", "start": "2026-07-12T11:54:52.810244", "end": "2026-07-12T11:55:10.837409", "duration_seconds": 18.0}
+{"process": "Code.exe", "title": "main.py - Untitled (Workspace) - Visual Studio Code", "start": "2026-07-12T11:55:10.837409", "end": "2026-07-12T11:55:18.853296", "duration_seconds": 8.0}
+{"process": "Code.exe", "title": "indicator.py - Untitled (Workspace) - Visual Studio Code", "start": "2026-07-12T11:55:18.853296", "end": "2026-07-12T11:55:20.856901", "duration_seconds": 2.0}
+{"process": "Code.exe", "title": "collector.py - Untitled (Workspace) - Visual Studio Code", "start": "2026-07-12T11:55:20.856901", "end": "2026-07-12T11:56:30.968964", "duration_seconds": 70.1}
+{"process": "WhatsApp.Root.exe", "title": "WhatsApp", "start": "2026-07-12T11:56:30.968964", "end": "2026-07-12T11:56:48.997489", "duration_seconds": 18.0}
+{"process": "Code.exe", "title": "collector.py - Untitled (Workspace) - Visual Studio Code", "start": "2026-07-12T11:58:13.123589", "end": "2026-07-12T11:58:18.093704", "duration_seconds": 5.0}

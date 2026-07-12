@@ -26,5 +26,5 @@ class OllamaAdapterV0_1:
 
         except Exception:
             return {
-                "text": "Local model execution failed."
+                "text": f"Local model execution failed: "  #try checking if ollama is running and the model is available
             }
