@@ -235,6 +235,7 @@ Say **"Hey Jarvis"** to activate.
 
 **Samarth Kadam** — B.Tech Computer Science, VIT Bhopal  
 Personal AI systems project — started February 2025, version 1 completed June 2026
+
 **Kousthubh Vasudevan** - B.Tech Computer Science, VIT Bhopal  
 Intern.
 
